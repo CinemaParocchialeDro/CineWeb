@@ -45,7 +45,7 @@ const films = [
         note: ""
     },
     {
-        title: "Il Padre dell' Anno.",
+        title: "Il Padre dell' Anno",
         genre: "Commedia / Drammatico",
         duration: "111 min",
         poster: "immagini/IL PADRE DELL'ANNO.jpg",
@@ -280,6 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
