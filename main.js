@@ -21,6 +21,18 @@ const films = [
         note: ""
     },
     {
+        title: "La Casa delle Bambole di Gabby",
+        genre: "Animazione Avventura",
+        duration: "98 min",
+        poster: "immagini/LA CASA DELLE BAMBOLE.jpg",
+        showings: [
+            { date: "2025-10-12", time: "17:30" },
+            { date: "2025-10-19", time: "17:30" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+    {
         title: "Dalai lama - La Saggezza della Felicità",
         genre: "Documentario",
         duration: "94 min",
@@ -268,6 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
