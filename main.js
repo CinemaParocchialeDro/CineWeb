@@ -21,17 +21,13 @@ const films = [
         note: ""
     },
     {
-        title: "F1 - Il film",
-        genre: "Azione",
-        duration: "155 min",
-        poster: "immagini/f_one_ver2.jpg",
+        title: "Dalai lama - la Saggezza della Felicità",
+        genre: "Documentario",
+        duration: "94 min",
+        poster: "immagini/DALAI LAMA.jpg",
         showings: [
-            { date: "2025-07-14", time: "16:00" },
-            { date: "2025-07-14", time: "18:30" },
-            { date: "2025-07-15", time: "16:00" },
-            { date: "2025-07-20", time: "16:00" },
-            { date: "2025-07-21", time: "16:00" },
-            { date: "2025-07-21", time: "18:30" }
+            { date: "2025-10-13", time: "21:00" },
+            { date: "2025-10-15", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -272,4 +268,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
