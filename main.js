@@ -9,7 +9,7 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "The Lift Of Chuck",
+        title: "The Life Of Chuck",
         genre: "Fantascienza / Drammatico",
         duration: "111 min",
         poster: "immagini/THE_LIFT_OF_CHUCK.jpg",
@@ -280,6 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
