@@ -21,7 +21,7 @@ const films = [
         note: ""
     },
     {
-        title: "Dalai lama - la Saggezza della Felicità",
+        title: "Dalai lama - La Saggezza della Felicità",
         genre: "Documentario",
         duration: "94 min",
         poster: "immagini/DALAI LAMA.jpg",
@@ -268,6 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
