@@ -12,7 +12,7 @@ const films = [
         title: "The Lift Of Chuck",
         genre: "Fantascienza / Drammatico",
         duration: "111 min",
-        poster: "immagini/THE LIFT OF CHUCK.jpg",
+        poster: "immagini/THE_LIFT_OF_CHUCK.jpg",
         showings: [
             { date: "2025-10-11", time: "21:00" },
             { date: "2025-10-12", time: "21:00" }
@@ -268,5 +268,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
