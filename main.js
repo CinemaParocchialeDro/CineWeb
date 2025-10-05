@@ -48,7 +48,7 @@ const films = [
         title: "Il Padre dell' Anno",
         genre: "Commedia / Drammatico",
         duration: "111 min",
-        poster: "immagini/IL PADRE DELL'ANNO.jpg",
+        poster: "immagini/IL_PADRE_DELL'ANNO.jpg",
         showings: [
             { date: "2025-10-18", time: "21:00" },
             { date: "2025-10-19", time: "21:00" }
@@ -280,6 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
