@@ -9,15 +9,13 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "Superman",
-        genre: "Azione",
-        duration: "129 min",
-        poster: "immagini/superman.jpg",
+        title: "The Lift Of Chuck",
+        genre: "Fantascienza / Drammatico",
+        duration: "111 min",
+        poster: "immagini/THE LIFT OF CHUCK.jpg",
         showings: [
-            { date: "2025-07-15", time: "20:30" },
-            { date: "2025-07-16", time: "20:30" },
-            { date: "2025-07-17", time: "18:00" },
-            { date: "2025-07-18", time: "20:30" }
+            { date: "2025-10-11", time: "21:00" },
+            { date: "2025-10-12", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -274,3 +272,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
