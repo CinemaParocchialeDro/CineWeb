@@ -22,7 +22,7 @@ const films = [
     },
     {
         title: "La Casa delle Bambole di Gabby",
-        genre: "Animazione Avventura",
+        genre: "Animazione / Avventura",
         duration: "98 min",
         poster: "immagini/LA CASA DELLE BAMBOLE.jpg",
         showings: [
@@ -46,7 +46,7 @@ const films = [
     },
     {
         title: "Il Padre dell' Anno",
-        genre: "Commedia Drammatico",
+        genre: "Commedia / Drammatico",
         duration: "111 min",
         poster: "immagini/IL PADRE DELL'ANNO.jpg",
         showings: [
@@ -280,6 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
