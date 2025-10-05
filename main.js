@@ -33,16 +33,16 @@ const films = [
         note: ""
     },
     {
-        title: "Jurassic",
-        genre: "Azione",
-        duration: "155 min",
-        poster: "immagini/jurassic_world_rebirth_ver8.jpg",
+        title: "Il Padre dell' Anno",
+        genre: "Commedia Drammatico",
+        duration: "111 min",
+        poster: "immagini/IL PADRE DELL'ANNO.jpg",
         showings: [
-            
-           
+            { date: "2025-10-18", time: "21:00" },
+            { date: "2025-10-19", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "Date in arrivo"
+        note: ""
     }
     
 ];
@@ -268,6 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
