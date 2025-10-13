@@ -8,18 +8,6 @@ function showBookingInfo(filmTitle) {
 // Sample data for programming
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
-     {
-        title: "La Casa delle Bambole di Gabby",
-        genre: "Animazione / Avventura",
-        duration: "98 min",
-        poster: "immagini/LA CASA DELLE BAMBOLE.jpg",
-        showings: [
-            { date: "2025-10-12", time: "17:30" },
-            { date: "2025-10-19", time: "17:30" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
     {
         title: "Dalai Lama - La Saggezza della Felicità",
         genre: "Documentario",
@@ -45,17 +33,6 @@ const films = [
         note: ""
     },
     {
-        title: "Tutto quello che resta di tè",
-        genre: "Drammatico",
-        duration: "145 min",
-        poster: "immagini/tuttoquellocherestadite.png",
-        showings: [
-            { date: "2025-10-24", time: "21:00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
         title: "Tron: Ares",
         genre: "Azione/Fantascienza /Avventura",
         duration: "120 min",
@@ -66,8 +43,30 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+    {
+        title: "La Casa delle Bambole di Gabby",
+        genre: "Animazione / Avventura",
+        duration: "98 min",
+        poster: "immagini/LA CASA DELLE BAMBOLE.jpg",
+        showings: [
+            { date: "2025-10-19", time: "17:30" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+    {
+        title: "Tutto quello che resta di tè",
+        genre: "Drammatico",
+        duration: "145 min",
+        poster: "immagini/tuttoquellocherestadite.png",
+        showings: [
+            { date: "2025-10-24", time: "21:00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
     }
-    
+      
 ];
 
 // Function to format date
@@ -291,6 +290,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
