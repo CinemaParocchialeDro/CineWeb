@@ -8,8 +8,7 @@ function showBookingInfo(filmTitle) {
 // Sample data for programming
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
-    
-    {
+     {
         title: "La Casa delle Bambole di Gabby",
         genre: "Animazione / Avventura",
         duration: "98 min",
@@ -62,10 +61,11 @@ const films = [
         duration: "120 min",
         poster: "immagini/p_movies_tronares_poster_3_c3f8fc21.jpeg",
         showings: [
-            { date:  },
+            { date: "2025-10-18", time: "21:00" },
+            { date: "2025-10-19", time: "21:00" }    
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "Prossimamente"
+        note: ""
     }
     
 ];
@@ -291,6 +291,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
