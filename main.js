@@ -33,18 +33,6 @@ const films = [
         note: ""
     },
     {
-        title: "Tron: Ares",
-        genre: "Azione/Fantascienza /Avventura",
-        duration: "120 min",
-        poster: "immagini/p_movies_tronares_poster_3_c3f8fc21.jpeg",
-        showings: [
-            { date: "2025-10-18", time: "21:00" },
-            { date: "2025-10-19", time: "21:00" }    
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
         title: "La Casa delle Bambole di Gabby",
         genre: "Animazione / Avventura",
         duration: "98 min",
@@ -62,6 +50,18 @@ const films = [
         poster: "immagini/tuttoquellocherestadite.png",
         showings: [
             { date: "2025-10-24", time: "21:00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+    {
+        title: "Tron: Ares",
+        genre: "Azione/Fantascienza /Avventura",
+        duration: "120 min",
+        poster: "immagini/p_movies_tronares_poster_3_c3f8fc21.jpeg",
+        showings: [
+            { date: "2025-10-25", time: "21:00" },
+            { date: "2025-10-26", time: "21:00" }    
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -290,6 +290,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
