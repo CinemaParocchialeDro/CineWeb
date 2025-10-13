@@ -9,13 +9,12 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "The Life Of Chuck",
-        genre: "Fantascienza / Drammatico",
-        duration: "111 min",
-        poster: "immagini/THE_LIFT_OF_CHUCK.jpg",
+        title: "Tron: Ares",
+        genre: "Azione/Fantascienza /Avventura",
+        duration: "120 min",
+        poster: "immagini/p_movies_tronares_poster_3_c3f8fc21.jpeg",
         showings: [
-            { date: "2025-10-11", time: "21:00" },
-            { date: "2025-10-12", time: "21:00" }
+            { date: "Prossimamente" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -280,6 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
