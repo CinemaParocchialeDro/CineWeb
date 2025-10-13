@@ -8,6 +8,7 @@ function showBookingInfo(filmTitle) {
 // Sample data for programming
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
+    
     {
         title: "La Casa delle Bambole di Gabby",
         genre: "Animazione / Avventura",
@@ -64,8 +65,8 @@ const films = [
             { date:  },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+        note: "Prossimamente"
+    }
     
 ];
 
@@ -290,6 +291,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
