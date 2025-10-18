@@ -40,7 +40,7 @@ const films = [
             { date: "2025-10-24", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "_Rassegna HOMELAND_"
+        note: "Rassegna HOMELAND"
     },
     {
         title: "Tron: Ares",
@@ -63,7 +63,7 @@ const films = [
             { date: "2025-10-27", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "_Rassegna HOMELAND_"
+        note: "Rassegna HOMELAND"
     },
     {
         title: "No Other Land",
@@ -74,7 +74,7 @@ const films = [
             { date: "2025-10-29", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "_Rassegna HOMELAND_"
+        note: "Rassegna HOMELAND"
   }
       
 ];
@@ -300,6 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
