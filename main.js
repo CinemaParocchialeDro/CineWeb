@@ -9,16 +9,15 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "Dalai Lama - La Saggezza della Felicità",
-        genre: "Documentario",
-        duration: "94 min",
+        title: "La Voce di Hind Rajab",
+        genre: "Drammatico",
+        duration: "89 min",
         poster: "immagini/DALAI LAMA.jpg",
         showings: [
-            { date: "2025-10-13", time: "21:00" },
-            { date: "2025-10-15", time: "21:00" }
+            { date: "2025-10-27", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "Rassegna HOMELAND"
     },
     {
         title: "Il Padre dell' Anno",
@@ -52,7 +51,7 @@ const films = [
             { date: "2025-10-24", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "Rassegna HOMELAND"
     },
     {
         title: "Tron: Ares",
@@ -65,6 +64,17 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+    {
+        title: "La Voce di Hind Rajab",
+        genre: "Drammatico",
+        duration: "89 min",
+        poster: "immagini/LA VOCE DI HIND RAJAB.jpeg",
+        showings: [
+            { date: "2025-10-27", time: "21:00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "Rassegna HOMELAND"
     }
       
 ];
@@ -290,6 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
