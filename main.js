@@ -9,17 +9,6 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "La Voce di Hind Rajab",
-        genre: "Drammatico",
-        duration: "89 min",
-        poster: "immagini/DALAI LAMA.jpg",
-        showings: [
-            { date: "2025-10-27", time: "21:00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "Rassegna HOMELAND"
-    },
-    {
         title: "Il Padre dell' Anno",
         genre: "Commedia / Drammatico",
         duration: "111 min",
@@ -311,6 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
