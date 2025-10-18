@@ -26,7 +26,7 @@ const films = [
         duration: "98 min",
         poster: "immagini/LA CASA DELLE BAMBOLE.jpg",
         showings: [
-            { date: "2025-10-19", time: "17:30" }
+            { date: "2025-10-19", time: "17:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -300,6 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
