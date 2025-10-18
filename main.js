@@ -75,7 +75,18 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "Rassegna HOMELAND"
-    }
+    },
+    {
+        title: "No Other Land",
+        genre: "Documentario",
+        duration: "65 min",
+        poster: "immagini/NO OTHER LAND.jpg",
+        showings: [
+            { date: "2025-10-29", time: "21:00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "Rassegna HOMELAND"
+  }
       
 ];
 
@@ -300,6 +311,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
