@@ -9,29 +9,6 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "Il Padre dell' Anno",
-        genre: "Commedia / Drammatico",
-        duration: "111 min",
-        poster: "immagini/images.jpeg",
-        showings: [
-            { date: "2025-10-18", time: "21:00" },
-            { date: "2025-10-19", time: "21:00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
-        title: "La Casa delle Bambole di Gabby",
-        genre: "Animazione / Avventura",
-        duration: "98 min",
-        poster: "immagini/LA CASA DELLE BAMBOLE.jpg",
-        showings: [
-            { date: "2025-10-19", time: "17:00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
         title: "Tutto quello che resta di tè",
         genre: "Drammatico",
         duration: "145 min",
@@ -300,6 +277,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
