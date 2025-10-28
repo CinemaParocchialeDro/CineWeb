@@ -14,7 +14,7 @@ const films = [
         duration: "139 min",
         poster: "immagini/ATH.jpg",
         showings: [
-            { date: "2025-11-01", time: "21:00" }
+            { date: "2025-11-01", time: "21:00" },
             { date: "2025-11-02", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
@@ -278,6 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
