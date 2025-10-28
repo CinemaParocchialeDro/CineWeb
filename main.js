@@ -42,7 +42,7 @@ const films = [
             { date: "2025-11-09", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "Rassegna HOMELAND"
+        note: ""
     },
     {
         title: "No Other Land",
@@ -279,6 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
