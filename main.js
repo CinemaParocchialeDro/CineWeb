@@ -21,13 +21,13 @@ const films = [
         note: ""
     },
     {
-        title: "Tron: Ares",
-        genre: "Azione/Fantascienza /Avventura",
-        duration: "120 min",
-        poster: "immagini/p_movies_tronares_poster_3_c3f8fc21.jpeg",
+        title: "Super Charlie",
+        genre: "Animazione, Family",
+        duration: "90 min",
+        poster: "immagini/SuperCharlie.jpg",
         showings: [
-            { date: "2025-10-25", time: "21:00" },
-            { date: "2025-10-26", time: "21:00" }    
+            { date: "2025-11-01", time: "17:30" },
+            { date: "2025-11-02", time: "17:30" }    
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -278,6 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
