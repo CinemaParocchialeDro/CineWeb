@@ -9,15 +9,16 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "Tutto quello che resta di tè",
-        genre: "Drammatico",
-        duration: "145 min",
-        poster: "immagini/tuttoquellocherestadite.png",
+        title: "After The Hunt: Dopo la Caccia",
+        genre: "Drammatico, Thriller Psicologico, Giallo",
+        duration: "139 min",
+        poster: "immagini/ATH.jpg",
         showings: [
-            { date: "2025-10-24", time: "21:00" }
+            { date: "2025-11-01", time: "21:00" }
+            { date: "2025-11-02", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "Rassegna HOMELAND"
+        note: ""
     },
     {
         title: "Tron: Ares",
@@ -277,6 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
