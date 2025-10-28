@@ -33,12 +33,13 @@ const films = [
         note: ""
     },
     {
-        title: "La Voce di Hind Rajab",
-        genre: "Drammatico",
-        duration: "89 min",
-        poster: "immagini/LA VOCE DI HIND RAJAB.jpeg",
+        title: "Springsteen: Liberami dal Nulla",
+        genre: "Documentario, Biografico, Drammatico, Musicale",
+        duration: "119 min",
+        poster: "immagini/springsteen-liberami-dal-nulla.jpg",
         showings: [
-            { date: "2025-10-27", time: "21:00" }
+            { date: "2025-11-08", time: "21:00" },
+            { date: "2025-11-09", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "Rassegna HOMELAND"
@@ -278,6 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
