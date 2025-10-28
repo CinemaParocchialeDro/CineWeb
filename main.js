@@ -9,6 +9,17 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
+        title: "No Other Land",
+        genre: "Documentario",
+        duration: "65 min",
+        poster: "immagini/NO OTHER LAND.jpg",
+        showings: [
+            { date: "2025-10-29", time: "21:00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "Rassegna HOMELAND"
+  },
+    {
         title: "After The Hunt: Dopo la Caccia",
         genre: "Drammatico, Thriller Psicologico, Giallo",
         duration: "139 min",
@@ -43,19 +54,8 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
-    },
-    {
-        title: "No Other Land",
-        genre: "Documentario",
-        duration: "65 min",
-        poster: "immagini/NO OTHER LAND.jpg",
-        showings: [
-            { date: "2025-10-29", time: "21:00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "Rassegna HOMELAND"
-  }
-      
+    }
+         
 ];
 
 // Function to format date
@@ -279,6 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
