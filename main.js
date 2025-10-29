@@ -76,6 +76,17 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
+    },
+    {
+        title: "Buen Camino",
+        genre: "Commedia",
+        duration: "120 min",
+        poster: "immagini/buen-camino.jpg",
+        showings: [
+            { date: "" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
          
 ];
@@ -301,6 +312,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
