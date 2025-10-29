@@ -54,6 +54,17 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+    {
+        title: "Zootropolis 2",
+        genre: "Animazione",
+        duration: "107 min",
+        poster: "immagini/zoo2.jpeg",
+        showings: [
+            { date: "" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
          
 ];
@@ -279,6 +290,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
