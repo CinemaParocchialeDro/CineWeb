@@ -64,7 +64,7 @@ const films = [
             { date: "" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PROSSIMAMENTE in PRIMA VISIONE"
     },
     {
         title: "Avatar 3 : Fuoco e Cenere",
@@ -75,7 +75,7 @@ const films = [
             { date: "" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PROSSIMAMENTE in PRIMA VISIONE"
     },
     {
         title: "Buen Camino",
@@ -83,10 +83,10 @@ const films = [
         duration: "120 min",
         poster: "immagini/buen-camino.jpg",
         showings: [
-            { date: "PROSSIMAMENTE" }
+            { date: "" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRIMA VISIONE"
+        note: "PROSSIMAMENTE in PRIMA VISIONE"
     }
          
 ];
@@ -312,6 +312,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
