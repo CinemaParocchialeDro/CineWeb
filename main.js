@@ -47,7 +47,7 @@ const films = [
         title: "Springsteen: Liberami dal Nulla",
         genre: "Documentario, Biografico, Drammatico, Musicale",
         duration: "119 min",
-        poster: "immagini/springsteen-liberami-dal-nulla.jpg",
+        poster: "immagini/Springsteen_poster.jpg",
         showings: [
             { date: "2025-11-08", time: "21:00" },
             { date: "2025-11-09", time: "21:00" }
@@ -290,6 +290,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
