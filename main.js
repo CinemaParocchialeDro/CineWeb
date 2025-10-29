@@ -83,10 +83,10 @@ const films = [
         duration: "120 min",
         poster: "immagini/buen-camino.jpg",
         showings: [
-            { date: "" }
+            { date: "PROSSIMAMENTE" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PRIMA VISIONE"
     }
          
 ];
@@ -312,6 +312,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
