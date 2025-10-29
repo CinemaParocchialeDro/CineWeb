@@ -65,6 +65,17 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
+    },
+    {
+        title: "Avatar 3 : Fuoco e Cenere",
+        genre: "Azione, Fantasy",
+        duration: "192 min",
+        poster: "immagini/avatar 3.jpg",
+        showings: [
+            { date: "" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
          
 ];
@@ -290,6 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
