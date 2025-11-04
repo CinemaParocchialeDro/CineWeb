@@ -9,41 +9,6 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "No Other Land",
-        genre: "Documentario",
-        duration: "65 min",
-        poster: "immagini/NO OTHER LAND.jpg",
-        showings: [
-            { date: "2025-10-29", time: "21:00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "Rassegna HOMELAND"
-    },
-    {
-        title: "Super Charlie",
-        genre: "Animazione, Family",
-        duration: "90 min",
-        poster: "immagini/SuperCharlie.jpg",
-        showings: [
-            { date: "2025-11-01", time: "17:30" },
-            { date: "2025-11-02", time: "17:30" }    
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
-        title: "After The Hunt: Dopo la Caccia",
-        genre: "Drammatico, Thriller Psicologico, Giallo",
-        duration: "139 min",
-        poster: "immagini/ATH.jpg",
-        showings: [
-            { date: "2025-11-01", time: "21:00" },
-            { date: "2025-11-02", time: "21:00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },    
-    {
         title: "Springsteen: Liberami dal Nulla",
         genre: "Documentario, Biografico, Drammatico, Musicale",
         duration: "119 min",
@@ -312,6 +277,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
