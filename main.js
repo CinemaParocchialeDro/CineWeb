@@ -9,16 +9,15 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "Springsteen: Liberami dal Nulla",
-        genre: "Documentario, Biografico, Drammatico, Musicale",
-        duration: "119 min",
-        poster: "immagini/Springsteen_poster.jpg",
+        title: "Heidi - Una nuova avventura",
+        genre: "Animazione, famiglia, Avventura",
+        duration: "79 min",
+        poster: "immagini/Heidi.jpg",
         showings: [
-            { date: "2025-11-08", time: "21:00" },
-            { date: "2025-11-09", time: "21:00" }
+            { date: "" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "PROSSIMAMENTE"
     },
     {
         title: "Zootropolis 2",
@@ -277,6 +276,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
