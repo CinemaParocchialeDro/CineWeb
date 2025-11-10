@@ -20,6 +20,17 @@ const films = [
         note: "PROSSIMAMENTE"
     },
     {
+        title: "La Vita va cosi",
+        genre: "Commedia",
+        duration: "118 min",
+        poster: "immagini/la vita va cosi.jpg",
+        showings: [
+            { date: "" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
         title: "Zootropolis 2",
         genre: "Animazione",
         duration: "107 min",
@@ -276,6 +287,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
