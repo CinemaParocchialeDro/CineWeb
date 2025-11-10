@@ -31,6 +31,17 @@ const films = [
         note: "PROSSIMAMENTE"
     },
     {
+        title: "Predator: Badlands",
+        genre: "Horror, Fantascienza, Avventura, Drammatico",
+        duration: "107 min",
+        poster: "immagini/sg_predator_badlands_resized_880741bc.jpeg",
+        showings: [
+            { date: "" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
         title: "Zootropolis 2",
         genre: "Animazione",
         duration: "107 min",
@@ -287,6 +298,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
