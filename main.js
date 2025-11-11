@@ -18,7 +18,7 @@ const films = [
              { date: "Domenica 16 novembre ore 21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
      {
         title: "Heidi - Una nuova avventura",
@@ -30,7 +30,7 @@ const films = [
             { date: "Domenica 23 novembre ore 17.30" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
     {
         title: "Predator: Badlands",
@@ -42,7 +42,7 @@ const films = [
             { date: "Domenica 23 novembre ore 21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
     {
         title: "Zootropolis 2",
@@ -301,6 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
