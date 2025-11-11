@@ -14,8 +14,8 @@ const films = [
         duration: "118 min",
         poster: "immagini/la vita va cosi.jpg",
         showings: [
-            { date: "Sabato 15 novembre ore 21.00" }
-            { date: "Domenica 16 novembre ore 21.00" }
+            { date: "2025-11-15", time: "21.00" },
+            { date: "2025-11-16", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -26,8 +26,8 @@ const films = [
         duration: "79 min",
         poster: "immagini/Heidi.jpg",
         showings: [
-            { date: "Domenica 16 novembre ore 17.30" }
-            { date: "Domenica 23 novembre ore 17.30" }
+            { date: "2025-11-16", time: "17.30" },
+            { date: "2025-11-23", time: "17.30" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -38,8 +38,8 @@ const films = [
         duration: "107 min",
         poster: "immagini/sg_predator_badlands_resized_880741bc.jpeg",
         showings: [
-            { date: "Sabato 22 novembre ore 21.00" }
-            { date: "Domenica 23 novembre ore 21.00" }
+            { date: "2025-11-22", time: "21.00" },
+            { date: "2025-11-23", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -301,6 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
