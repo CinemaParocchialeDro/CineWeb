@@ -15,7 +15,7 @@ const films = [
         poster: "immagini/la vita va cosi.jpg",
         showings: [
             { date: "Sabato 15 novembre ore 21.00" }
-             { date: "Domenica 16 novembre ore 21.00" }
+            { date: "Domenica 16 novembre ore 21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -301,6 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
