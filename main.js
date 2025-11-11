@@ -50,10 +50,10 @@ const films = [
         duration: "107 min",
         poster: "immagini/zoo2.jpeg",
         showings: [
-            { date: "" }
+        
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE in PRIMA VISIONE"
+        note: ""
     },
     {
         title: "Avatar 3 : Fuoco e Cenere",
@@ -61,10 +61,10 @@ const films = [
         duration: "192 min",
         poster: "immagini/avatar 3.jpg",
         showings: [
-            { date: "" }
+        
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE in PRIMA VISIONE"
+        note: ""
     },
     {
         title: "Buen Camino",
@@ -72,10 +72,10 @@ const films = [
         duration: "120 min",
         poster: "immagini/buen-camino.jpg",
         showings: [
-            { date: "" }
+            
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE in PRIMA VISIONE"
+        note: ""
     }
          
 ];
@@ -106,7 +106,7 @@ function groupShowingsByDate(showings) {
 // Function to generate schedule HTML
 function generateScheduleHTML(showings) {
     if (!showings || showings.length === 0) {
-        return '<div class="no-showings">Nessuna programmazione disponibile</div>';
+        return '<div class="no-showings" style="font-weight: bold;">Prossimamente in PRIMA VISIONE</div>';
     }
 
     const grouped = groupShowingsByDate(showings);
@@ -301,6 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
