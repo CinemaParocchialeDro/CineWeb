@@ -9,23 +9,25 @@ function showBookingInfo(filmTitle) {
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
     {
-        title: "Heidi - Una nuova avventura",
-        genre: "Animazione, famiglia, Avventura",
-        duration: "79 min",
-        poster: "immagini/Heidi.jpg",
-        showings: [
-            { date: "" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
-    },
-    {
         title: "La Vita va cosi",
         genre: "Commedia",
         duration: "118 min",
         poster: "immagini/la vita va cosi.jpg",
         showings: [
-            { date: "" }
+            { date: "Sabato 15 novembre ore 21.00" }
+             { date: "Domenica 16 novembre ore 21.00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+     {
+        title: "Heidi - Una nuova avventura",
+        genre: "Animazione, famiglia, Avventura",
+        duration: "79 min",
+        poster: "immagini/Heidi.jpg",
+        showings: [
+            { date: "Domenica 16 novembre ore 17.30" }
+            { date: "Domenica 23 novembre ore 17.30" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
@@ -36,7 +38,8 @@ const films = [
         duration: "107 min",
         poster: "immagini/sg_predator_badlands_resized_880741bc.jpeg",
         showings: [
-            { date: "" }
+            { date: "Sabato 22 novembre ore 21.00" }
+            { date: "Domenica 23 novembre ore 21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
@@ -298,6 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
