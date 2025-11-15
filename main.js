@@ -55,6 +55,17 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
+     {
+        title: "40 Secondi",
+        genre: "Biografico, Drammatico",
+        duration: "121 min",
+        poster: "immagini/40-secondi.jpg",
+        showings: [
+        
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
     {
         title: "Avatar 3 : Fuoco e Cenere",
         genre: "Azione, Fantasy",
@@ -301,6 +312,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
