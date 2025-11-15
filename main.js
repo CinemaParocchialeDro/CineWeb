@@ -117,7 +117,7 @@ function groupShowingsByDate(showings) {
 // Function to generate schedule HTML
 function generateScheduleHTML(showings) {
     if (!showings || showings.length === 0) {
-        return '<div class="no-showings" style="font-weight: bold;">Prossimamente in PRIMA VISIONE</div>';
+        return '<div class="no-showings" style="font-weight: bold;">PROSSIMAMENTE</div>';
     }
 
     const grouped = groupShowingsByDate(showings);
@@ -312,6 +312,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
