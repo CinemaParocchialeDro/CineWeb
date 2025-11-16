@@ -49,6 +49,7 @@ const films = [
         genre: "Animazione",
         duration: "107 min",
         poster: "immagini/zoo2.jpeg",
+        isPremiere: true,
         showings: [
         
         ],
@@ -71,6 +72,7 @@ const films = [
         genre: "Azione, Fantasy",
         duration: "192 min",
         poster: "immagini/avatar 3.jpg",
+        isPremiere: true,
         showings: [
         
         ],
@@ -82,6 +84,7 @@ const films = [
         genre: "Commedia",
         duration: "120 min",
         poster: "immagini/buen-camino.jpg",
+        isPremiere: true,
         showings: [
             
         ],
@@ -312,6 +315,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
