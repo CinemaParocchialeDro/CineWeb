@@ -24,7 +24,7 @@ const films = [
             { date: "2025-11-23", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "CONSIGLIATA LA PRENOTAZIONE"
+        note: ""
     },
     {
         title: "Zootropolis 2",
@@ -40,7 +40,7 @@ const films = [
             { date: "2025-12-07", time: "17.30" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "CONSIGLIATA LA PRENOTAZIONE"
     },
      {
         title: "40 Secondi",
