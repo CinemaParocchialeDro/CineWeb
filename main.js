@@ -8,31 +8,7 @@ function showBookingInfo(filmTitle) {
 // Sample data for programming
 // Per cercare la copertina: http://www.impawards.com/
 const films = [
-    {
-        title: "La Vita va cosi",
-        genre: "Commedia",
-        duration: "118 min",
-        poster: "immagini/la vita va cosi.jpg",
-        showings: [
-            { date: "2025-11-15", time: "21.00" },
-            { date: "2025-11-16", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-     {
-        title: "Heidi - Una nuova avventura",
-        genre: "Animazione, famiglia, Avventura",
-        duration: "79 min",
-        poster: "immagini/Heidi.jpg",
-        showings: [
-            { date: "2025-11-16", time: "17.30" },
-            { date: "2025-11-23", time: "17.30" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
+      {
         title: "Predator: Badlands",
         genre: "Horror, Fantascienza, Avventura, Drammatico",
         duration: "107 min",
@@ -51,7 +27,8 @@ const films = [
         poster: "immagini/zoo2.jpeg",
         isPremiere: true,
         showings: [
-        
+            { date: "2025-11-29", time: "21.00" },
+            { date: "2025-11-30", time: "17.30" "21.00" }  
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -315,6 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
