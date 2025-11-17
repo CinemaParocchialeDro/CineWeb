@@ -24,7 +24,7 @@ const films = [
         title: "Zootropolis 2",
         genre: "Animazione",
         duration: "107 min",
-        poster: "immagini/zoo2.jpeg",
+        poster: "immagini/zoo2-prova.jpg",
         isPremiere: true,
         showings: [
             { date: "2025-11-29", time: "21.00" },
@@ -296,6 +296,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
