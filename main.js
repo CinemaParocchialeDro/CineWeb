@@ -15,52 +15,65 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
     {
-        title: "Superman",
-        genre: "Azione",
-        duration: "129 min",
-        poster: "immagini/superman.jpg",
+        title: "Predator: Badlands",
+        genre: "Horror, Fantascienza, Avventura, Drammatico",
+        duration: "107 min",
+        poster: "immagini/sg_predator_badlands_resized_880741bc.jpeg",
+        showings: [
+            { date: "2025-11-22", time: "21.00" },
+            { date: "2025-11-23", time: "21.00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+    {
+        title: "Zootropolis 2",
+        genre: "Animazione",
+        duration: "107 min",
+        poster: "immagini/zoo2-prova.jpg",
+        isPremiere: true,
+        showings: [
+            { date: "2025-11-29", time: "21.00" },
+            { date: "2025-11-30", time: "17.30" },
+            { date: "2025-11-30", time: "21.00" },
+            { date: "2025-12-06", time: "16.30" },
+            { date: "2025-12-07", time: "17.30" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+     {
+        title: "40 Secondi",
+        genre: "Biografico, Drammatico",
+        duration: "121 min",
+        poster: "immagini/40-secondi.jpg",
+        showings: [
+            { date: "2025-12-06", time: "21.00" },
+            { date: "2025-12-07", time: "21.00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+    {
+        title: "Avatar 3 : Fuoco e Cenere",
+        genre: "Azione, Fantasy",
+        duration: "192 min",
+        poster: "immagini/avatar 3.jpg",
+        isPremiere: true,
+        showings: [
+        
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+    {
+        title: "Buen Camino",
+        genre: "Commedia",
+        duration: "120 min",
+        poster: "immagini/buen-camino.jpg",
         isPremiere: true,
         showings: [
             
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/titolo/557_il-mio-amico-pinguin",
-        note: ""
-    },
-    {
-        title: "F1 - Il film",
-        genre: "Azione",
-        duration: "155 min",
-        poster: "immagini/f_one_ver2.jpg",
-        isPremiere: false,
-        showings: [
-            { date: "2025-10-11", time: "21:00" },
-            { date: "2025-10-12", time: "21:00" }
-        ],
-        bookingUrl: "",
-        note: ""
-
-    },
-    {
-        title: "Dalai Lama - La Saggezza della Felicità",
-        genre: "Documentario",
-        duration: "94 min",
-        poster: "immagini/jurassic_world_rebirth_ver8.jpg",
-        isPremiere: true,
-        showings: [
-            // { date: "2025-10-16", time: "20:00  " },
-            // { date: "2025-10-15", time: "21:00" }
-        ],
-        bookingUrl: "",
-        note: ""
-    },
-    {
-        title: "Il Padre dell'anno",
-        genre: "",
-        duration: "94 min",
-        poster: "immagini/f1.jpg",
-        showings: [
-            { date: "2025-10-13", time: "21:00" },
-            { date: "2025-10-15", time: "21:00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
