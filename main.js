@@ -24,7 +24,7 @@ const films = [
             { date: "2025-11-23", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "CONSIGLIATA LA PRENOTAZIONE"
     },
     {
         title: "Zootropolis 2",
