@@ -42,7 +42,8 @@ const films = [
         duration: "121 min",
         poster: "immagini/40-secondi.jpg",
         showings: [
-        
+            { date: "2025-12-06", time: "21.00" },
+            { date: "2025-12-07", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -295,6 +296,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
 
