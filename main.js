@@ -27,6 +27,17 @@ const films = [
         note: ""
     },
     {
+        title: "Heidi-Una nuova avventura",
+        genre: "Family, Avventura",
+        duration: "89 min",
+        poster: "immagini/Heidi.jpg",
+        showings: [
+            { date: "2025-11-23", time: "17.30" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+    {
         title: "Zootropolis 2",
         genre: "Animazione",
         duration: "107 min",
