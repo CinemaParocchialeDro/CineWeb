@@ -27,17 +27,6 @@ const films = [
         note: ""
     },
     {
-        title: "Heidi-Una nuova avventura",
-        genre: "Family, Avventura",
-        duration: "89 min",
-        poster: "immagini/Heidi.jpg",
-        showings: [
-            { date: "2025-11-23", time: "17.30" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
         title: "Zootropolis 2",
         genre: "Animazione",
         duration: "107 min",
@@ -52,6 +41,17 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "CONSIGLIATA LA PRENOTAZIONE"
+    },
+    {
+        title: "Cinque secondi",
+        genre: "Commedia",
+        duration: "105 min",
+        poster: "immagini/5 SECONDI.jpg",
+        showings: [
+            ,
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     },
      {
         title: "40 Secondi",
@@ -75,7 +75,7 @@ const films = [
         
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "PROSSIMAMENTE"
     },
     {
         title: "Buen Camino",
@@ -87,7 +87,7 @@ const films = [
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "PROSSIMAMENTE"
     }
      
     
