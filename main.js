@@ -45,8 +45,8 @@ const films = [
         isPremiere: true,
         showings: [
             { date: "2025-11-29", time: "21.00" },
+            { date: "2025-11-30", time: "15.00" },
             { date: "2025-11-30", time: "17.30" },
-            { date: "2025-11-30", time: "21.00" },
             { date: "2025-12-06", time: "16.30" },
             { date: "2025-12-07", time: "17.30" }
         ],
