@@ -42,17 +42,6 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "CONSIGLIATA LA PRENOTAZIONE"
     },
-    {
-        title: "Cinque secondi",
-        genre: "Commedia",
-        duration: "105 min",
-        poster: "immagini/5 SECONDI.jpg",
-        showings: [
-            ,
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
-    },
      {
         title: "40 Secondi",
         genre: "Biografico, Drammatico",
@@ -64,6 +53,17 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+      {
+        title: "Cinque secondi",
+        genre: "Commedia",
+        duration: "105 min",
+        poster: "immagini/5 SECONDI.jpg",
+        showings: [
+            ,
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     },
     {
         title: "Avatar 3 : Fuoco e Cenere",
