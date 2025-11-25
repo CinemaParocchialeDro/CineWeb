@@ -15,18 +15,6 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
     {
-        title: "Predator: Badlands",
-        genre: "Horror, Fantascienza, Avventura, Drammatico",
-        duration: "107 min",
-        poster: "immagini/sg_predator_badlands_resized_880741bc.jpeg",
-        showings: [
-            { date: "2025-11-22", time: "21.00" },
-            { date: "2025-11-23", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
         title: "Zootropolis 2",
         genre: "Animazione",
         duration: "107 min",
