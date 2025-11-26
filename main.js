@@ -15,18 +15,6 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
     {
-        title: "Predator: Badlands",
-        genre: "Horror, Fantascienza, Avventura, Drammatico",
-        duration: "107 min",
-        poster: "immagini/sg_predator_badlands_resized_880741bc.jpeg",
-        showings: [
-            { date: "2025-11-22", time: "21.00" },
-            { date: "2025-11-23", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
         title: "Zootropolis 2",
         genre: "Animazione",
         duration: "107 min",
@@ -34,13 +22,13 @@ const films = [
         isPremiere: true,
         showings: [
             { date: "2025-11-29", time: "21.00" },
+            { date: "2025-11-30", time: "15.00" },
             { date: "2025-11-30", time: "17.30" },
-            { date: "2025-11-30", time: "21.00" },
             { date: "2025-12-06", time: "16.30" },
             { date: "2025-12-07", time: "17.30" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "CONSIGLIATA LA PRENOTAZIONE"
     },
      {
         title: "40 Secondi",
@@ -54,6 +42,17 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
+      {
+        title: "Cinque secondi",
+        genre: "Commedia",
+        duration: "105 min",
+        poster: "immagini/5 SECONDI.jpg",
+        showings: [
+            ,
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
     {
         title: "Avatar 3 : Fuoco e Cenere",
         genre: "Azione, Fantasy",
@@ -64,7 +63,7 @@ const films = [
         
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "PROSSIMAMENTE"
     },
     {
         title: "Buen Camino",
@@ -76,7 +75,7 @@ const films = [
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "PROSSIMAMENTE"
     }
      
     
