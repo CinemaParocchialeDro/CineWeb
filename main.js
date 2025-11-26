@@ -48,7 +48,7 @@ const films = [
         duration: "105 min",
         poster: "immagini/5 SECONDI.jpg",
         showings: [
-            ,
+            
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
