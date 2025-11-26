@@ -730,6 +730,25 @@ body {
         url('./immagini/oratoriolaterale.jpg') center/cover no-repeat;
         /* display: none !important; */
     }
+
+    .film-card {
+        /* Sblocca le dimensioni rigide del desktop */
+        flex-basis: auto; 
+        flex-shrink: 1; /* La card può rimpicciolirsi */
+        
+        /* Definisci una larghezza per il telefono */
+        width: 90%;       /* Occupa il 90% dello spazio disponibile */
+        max-width: 330px; /* Non diventare mai troppo gigante */
+        
+        /* Centra la card */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem; /* Spazio tra una card e l'altra */
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
 }
 
 .contributi-table {
