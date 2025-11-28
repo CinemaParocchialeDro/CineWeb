@@ -70,7 +70,7 @@ const films = [
         title: "Buen Camino",
         genre: "Commedia",
         duration: "120 min",
-        poster: "immagini/buen-camino.jpg",
+        poster: "immagini/Buen Camino.jpeg",
         isPremiere: true,
         showings: [
             
