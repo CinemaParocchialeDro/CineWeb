@@ -90,7 +90,7 @@ const films = [
         title: "Un topolino sotto l'albero",
         genre: "Animazione, Commedia, Family",
         duration: "80 min",
-        poster: "immagini/UN-TOPOLINO-SOTTO-LALBERO.jpg",
+        poster: "immagini/TOPOLINO-SOTTO-LALBERO.jpg",
         showings: [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
