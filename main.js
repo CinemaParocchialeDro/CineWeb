@@ -87,7 +87,7 @@ const films = [
         note: "PROSSIMAMENTE"
     },
     {
-        title: "Un Topolino sotto l'albero",
+        title: "Un Topolino sotto l'Albero",
         genre: "Animazione, Commedia, Family",
         duration: "80 min",
         poster: "immagini/TOPOLINO-SOTTO-LALBERO.jpg",
