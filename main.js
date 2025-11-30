@@ -77,7 +77,7 @@ const films = [
         note: "PROSSIMAMENTE"
     },
     {
-        title: "Norinberga",
+        title: "Norimberga",
         genre: "Drammatico",
         duration: "148 min",
         poster: "immagini/locandina_norimberga.jpg",
