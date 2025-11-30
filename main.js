@@ -60,8 +60,7 @@ const films = [
         duration: "192 min",
         poster: "immagini/avatar 3.jpg",
         isPremiere: true,
-        showings: [
-        
+        showings: [ 
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
@@ -73,12 +72,31 @@ const films = [
         poster: "immagini/Buen Camino.jpeg",
         isPremiere: true,
         showings: [
-            
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
+        title: "Norinberga",
+        genre: "Drammatico",
+        duration: "148 min",
+        poster: "immagini/locandina_norimberga.jpg",
+        showings: [
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
+        title: "Un topolino sotto l'albero",
+        genre: "Animazione, Commedia, Family",
+        duration: "80 min",
+        poster: "immagini/UN-TOPOLINO-SOTTO-LALBERO.jpg",
+        showings: [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
     }
-     
+       
     
 ];
 
