@@ -43,7 +43,7 @@ const films = [
         note: ""
     },
       {
-        title: "Cinque secondi",
+        title: "Cinque Secondi",
         genre: "Commedia",
         duration: "105 min",
         poster: "immagini/5 SECONDI.jpg",
@@ -87,7 +87,7 @@ const films = [
         note: "PROSSIMAMENTE"
     },
     {
-        title: "Un topolino sotto l'albero",
+        title: "Un Topolino sotto l'albero",
         genre: "Animazione, Commedia, Family",
         duration: "80 min",
         poster: "immagini/TOPOLINO-SOTTO-LALBERO.jpg",
