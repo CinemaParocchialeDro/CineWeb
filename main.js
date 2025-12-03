@@ -86,7 +86,7 @@ const films = [
             { date: "2026-01-01", time: "21.00" }  
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     },
     {
         title: "Norimberga",
@@ -94,9 +94,11 @@ const films = [
         duration: "148 min",
         poster: "immagini/locandina_norimberga.jpg",
         showings: [
+            { date: "2026-01-05", time: "21.00" },
+            { date: "2026-01-06", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     },
     {
         title: "Un Topolino sotto l'Albero",
@@ -104,9 +106,11 @@ const films = [
         duration: "80 min",
         poster: "immagini/TOPOLINO-SOTTO-LALBERO.jpg",
         showings: [
+            { date: "2026-01-03", time: "16.30" },
+            { date: "2026-01-04", time: "17.30" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     }
        
     
