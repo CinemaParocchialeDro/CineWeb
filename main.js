@@ -50,7 +50,7 @@ const films = [
             { date: "2025-12-14", time: "21.00" } 
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     },
     {
         title: "Avatar 3 : Fuoco e Cenere",
