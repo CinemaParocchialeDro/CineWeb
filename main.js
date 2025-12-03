@@ -50,7 +50,7 @@ const films = [
             { date: "2025-12-14", time: "21.00" } 
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
     {
         title: "Avatar 3 : Fuoco e Cenere",
@@ -59,9 +59,15 @@ const films = [
         poster: "immagini/avatar 3.jpg",
         isPremiere: true,
         showings: [ 
+            { date: "2025-12-17", time: "21.00" },
+            { date: "2025-12-20", time: "21.00" },
+            { date: "2025-12-21", time: "16.30" },
+            { date: "2025-12-21", time: "21.00" },
+            { date: "2026-01-03", time: "21.00" },
+            { date: "2026-01-04", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     },
     {
         title: "Buen Camino",
@@ -70,6 +76,14 @@ const films = [
         poster: "immagini/Buen Camino.jpeg",
         isPremiere: true,
         showings: [
+            { date: "2025-12-25", time: "17.30" },
+            { date: "2025-12-25", time: "21.00" },
+            { date: "2025-12-26", time: "17.30" },
+            { date: "2025-12-26", time: "21.00" },
+            { date: "2025-12-27", time: "21.00" },
+            { date: "2025-12-28", time: "21.00" },
+            { date: "2026-01-01", time: "01.30" },
+            { date: "2026-01-01", time: "21.00" }  
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
