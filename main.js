@@ -14,32 +14,6 @@ function GalleryWorkInProgress() {
 // Informazione programmazione corrente
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
-    {
-        title: "Zootropolis 2",
-        genre: "Animazione",
-        duration: "107 min",
-        poster: "immagini/zoo2-prova.jpg",
-        isPremiere: true,
-        showings: [
-            { date: "2025-12-06", time: "16.30" },
-            { date: "2025-12-07", time: "17.30" },
-            { date: "2025-12-08", time: "17.30" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "CONSIGLIATA LA PRENOTAZIONE"
-    },
-     {
-        title: "40 Secondi",
-        genre: "Biografico, Drammatico",
-        duration: "121 min",
-        poster: "immagini/40-secondi.jpg",
-        showings: [
-            { date: "2025-12-06", time: "21.00" },
-            { date: "2025-12-07", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
       {
         title: "Cinque Secondi",
         genre: "Commedia",
@@ -53,7 +27,7 @@ const films = [
         note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     },
     {
-        title: "Avatar 3 : Fuoco e Cenere",
+        title: "Avatar: Fuoco e Cenere",
         genre: "Azione, Fantasy",
         duration: "192 min",
         poster: "immagini/avatar 3.jpg",
