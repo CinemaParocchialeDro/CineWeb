@@ -14,18 +14,7 @@ function GalleryWorkInProgress() {
 // Informazione programmazione corrente
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
-      {
-        title: "Cinque Secondi",
-        genre: "Commedia",
-        duration: "105 min",
-        poster: "immagini/5 SECONDI.jpg",
-        showings: [
-            { date: "2025-12-13", time: "21.00" },
-            { date: "2025-12-14", time: "21.00" } 
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
-    },
+
     {
         title: "Avatar: Fuoco e Cenere",
         genre: "Azione, Fantasy",
