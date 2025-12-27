@@ -22,10 +22,6 @@ const films = [
         poster: "immagini/avatar 3.jpg",
         isPremiere: true,
         showings: [ 
-            { date: "2025-12-17", time: "21.00" },
-            { date: "2025-12-20", time: "21.00" },
-            { date: "2025-12-21", time: "16.30" },
-            { date: "2025-12-21", time: "21.00" },
             { date: "2026-01-03", time: "21.00" },
             { date: "2026-01-04", time: "21.00" }
         ],
@@ -35,15 +31,11 @@ const films = [
     {
         title: "Buen Camino",
         genre: "Commedia",
-        duration: "120 min",
+        duration: "90 min",
         poster: "immagini/Buen Camino.jpeg",
         isPremiere: true,
         showings: [
-            { date: "2025-12-25", time: "17.30" },
-            { date: "2025-12-25", time: "21.00" },
-            { date: "2025-12-26", time: "17.30" },
-            { date: "2025-12-26", time: "21.00" },
-            { date: "2025-12-27", time: "21.00" },
+            { date: "2025-12-28", time: "17.30" },
             { date: "2025-12-28", time: "21.00" },
             { date: "2026-01-01", time: "01.30" },
             { date: "2026-01-01", time: "21.00" }  
