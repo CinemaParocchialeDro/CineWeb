@@ -22,10 +22,7 @@ const films = [
         poster: "immagini/Buen Camino.jpeg",
         isPremiere: true,
         showings: [
-            { date: "2025-12-30", time: "21.00" },
-            { date: "2026-01-01", time: "01.30" },
-            { date: "2026-01-01", time: "17.30" },  
-            { date: "2026-01-01", time: "21.00" }
+            { date: "2026-01-06", time: "18.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
