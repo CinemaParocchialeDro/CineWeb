@@ -16,31 +16,6 @@ function GalleryWorkInProgress() {
 const films = [
 
     {
-        title: "Buen Camino",
-        genre: "Commedia",
-        duration: "90 min",
-        poster: "immagini/Buen Camino.jpeg",
-        isPremiere: true,
-        showings: [
-            { date: "2026-01-06", time: "18.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
-    },
-    {
-        title: "Avatar: Fuoco e Cenere",
-        genre: "Azione, Fantasy",
-        duration: "192 min",
-        poster: "immagini/avatar 3.jpg",
-        isPremiere: true,
-        showings: [ 
-            { date: "2026-01-03", time: "21.00" },
-            { date: "2026-01-04", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
-    },
-    {
         title: "Norimberga",
         genre: "Drammatico",
         duration: "148 min",
@@ -53,18 +28,42 @@ const films = [
         note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     },
     {
-        title: "Un Topolino sotto l'Albero",
-        genre: "Animazione, Commedia, Family",
-        duration: "80 min",
-        poster: "immagini/TOPOLINO-SOTTO-LALBERO.jpg",
+        title: "Zootropolis 2",
+        genre: "Animazione, Family",
+        duration: "110 min",
+        poster: "immagini/zootropolis2.jpg",
         showings: [
-            { date: "2026-01-03", time: "16.30" },
-            { date: "2026-01-04", time: "17.30" }
+            { date: "2026-01-10", time: "21.00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
+    },
+    {
+        title: "Buen Camino",
+        genre: "Commedia",
+        duration: "90 min",
+        poster: "immagini/Buen Camino.jpeg",
+        isPremiere: true,
+        showings: [
+            { date: "2026-01-06", time: "18.00" },
+             { date: "2026-01-12", time: "21.00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
+    },
+    {
+        title: "Avatar: Fuoco e Cenere",
+        genre: "Azione, Fantasy",
+        duration: "192 min",
+        poster: "immagini/avatar 3.jpg",
+        isPremiere: true,
+        showings: [ 
+            { date: "2026-01-11", time: "16.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     }
-       
+    
     
 ];
 
