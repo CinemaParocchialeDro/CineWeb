@@ -21,8 +21,7 @@ const films = [
         duration: "148 min",
         poster: "immagini/locandina_norimberga.jpg",
         showings: [
-            { date: "2026-01-05", time: "21.00" },
-            { date: "2026-01-06", time: "21.00" }
+            { date: "2026-01-11", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
@@ -45,7 +44,6 @@ const films = [
         poster: "immagini/Buen Camino.jpeg",
         isPremiere: true,
         showings: [
-            { date: "2026-01-06", time: "18.00" },
              { date: "2026-01-12", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
