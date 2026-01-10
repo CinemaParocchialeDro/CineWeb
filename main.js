@@ -19,7 +19,7 @@ const films = [
         title: "Norimberga",
         genre: "Drammatico",
         duration: "148 min",
-        poster: "immagini/locandina_norimberga.jpg",
+        poster: "immagini/russell-crowe-norimberga-.jpg",
         showings: [
             { date: "2026-01-11", time: "21.00" }
         ],
