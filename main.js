@@ -27,17 +27,6 @@ const films = [
         note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     },
     {
-        title: "Zootropolis 2",
-        genre: "Animazione, Family",
-        duration: "110 min",
-        poster: "immagini/zootropolis2.jpg",
-        showings: [
-            { date: "2026-01-10", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
-    },
-    {
         title: "Buen Camino",
         genre: "Commedia",
         duration: "90 min",
