@@ -14,19 +14,7 @@ function GalleryWorkInProgress() {
 // Informazione programmazione corrente
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
-
-    {
-        title: "Norimberga",
-        genre: "Drammatico",
-        duration: "148 min",
-        poster: "immagini/russell-crowe-norimberga-.jpg",
-        showings: [
-            { date: "2026-01-11", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
-    },
-    {
+     {
         title: "Buen Camino",
         genre: "Commedia",
         duration: "90 min",
@@ -39,16 +27,28 @@ const films = [
         note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
     },
     {
-        title: "Avatar: Fuoco e Cenere",
-        genre: "Azione, Fantasy",
-        duration: "192 min",
-        poster: "immagini/avatar 3.jpg",
-        isPremiere: true,
-        showings: [ 
-            { date: "2026-01-11", time: "16.00" }
+        title: "Primavera",
+        genre: "Drammatico, Romanzo Storico",
+        duration: "110 min",
+        poster: "immagini/PRIMAVERA.jpg",
+        showings: [
+            { date: "2026-01-17", time: "21.00" },
+            { date: "2026-01-18", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
+        note: ""
+    },  
+    {
+        title: "SpongeBob - Un' Avventura da Pirati",
+        genre: "Animazione",
+        duration: "88 min",
+        poster: "immagini/SPONGEBOB-UNAVVENTURA-DA-PIRATI.jpg",
+        isPremiere: true,
+        showings: [ 
+            { date: "2026-01-18", time: "17.30" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
     }
     
     
