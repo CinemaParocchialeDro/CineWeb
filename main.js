@@ -45,7 +45,8 @@ const films = [
         poster: "immagini/SPONGEBOB-UNAVVENTURA-DA-PIRATI.jpg",
         isPremiere: true,
         showings: [ 
-            { date: "2026-01-18", time: "17.30" }
+            { date: "2026-01-18", time: "17.30" },
+            { date: "2026-01-25", time: "17.30" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
