@@ -24,7 +24,7 @@ const films = [
              { date: "2026-01-12", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE 7 GIORNI PRIMA"
+        note: ""
     },
     {
         title: "Primavera",
