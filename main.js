@@ -14,18 +14,7 @@ function GalleryWorkInProgress() {
 // Informazione programmazione corrente
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
-     {
-        title: "Buen Camino",
-        genre: "Commedia",
-        duration: "90 min",
-        poster: "immagini/Buen Camino.jpeg",
-        isPremiere: true,
-        showings: [
-             { date: "2026-01-12", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+     
     {
         title: "Primavera",
         genre: "Drammatico, Romanzo Storico",
