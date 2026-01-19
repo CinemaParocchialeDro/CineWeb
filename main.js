@@ -33,7 +33,6 @@ const films = [
         genre: "Animazione",
         duration: "88 min",
         poster: "immagini/SPONGEBOB-UNAVVENTURA-DA-PIRATI.jpg",
-        isPremiere: true,
         showings: [ 
             { date: "2026-01-25", time: "17.30" }
         ],
