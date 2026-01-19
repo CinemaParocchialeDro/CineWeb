@@ -16,13 +16,14 @@ function GalleryWorkInProgress() {
 const films = [
      
     {
-        title: "Primavera",
-        genre: "Drammatico, Romanzo Storico",
-        duration: "110 min",
-        poster: "immagini/PRIMAVERA.jpg",
+        title: "La Grazia",
+        genre: "Drammatico",
+        duration: "133 min",
+        poster: "immagini/LA GRAZIA.jpg",
         showings: [
-            { date: "2026-01-17", time: "21.00" },
-            { date: "2026-01-18", time: "21.00" }
+            { date: "2026-01-24", time: "21.00" },
+            { date: "2026-01-25", time: "21.00" },
+            { date: "2026-02-01", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
@@ -34,7 +35,6 @@ const films = [
         poster: "immagini/SPONGEBOB-UNAVVENTURA-DA-PIRATI.jpg",
         isPremiere: true,
         showings: [ 
-            { date: "2026-01-18", time: "17.30" },
             { date: "2026-01-25", time: "17.30" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
