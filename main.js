@@ -14,32 +14,30 @@ function GalleryWorkInProgress() {
 // Informazione programmazione corrente
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
-     
+      {
+        title: "Elena del Ghetto",
+        genre: "Drammatico",
+        duration: "98 min",
+        poster: "immagini/elena1.jpg",
+        showings: [ 
+            { date: "2026-01-27", time: "18.00" },
+            { date: "2026-01-30", time: "21.00" },
+            { date: "2026-01-31", time: "21.00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
     {
         title: "La Grazia",
         genre: "Drammatico",
         duration: "133 min",
         poster: "immagini/LA GRAZIA.jpg",
         showings: [
-            { date: "2026-01-24", time: "21.00" },
-            { date: "2026-01-25", time: "21.00" },
             { date: "2026-02-01", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
-    },  
-    {
-        title: "SpongeBob - Un' Avventura da Pirati",
-        genre: "Animazione",
-        duration: "88 min",
-        poster: "immagini/SPONGEBOB-UNAVVENTURA-DA-PIRATI.jpg",
-        showings: [ 
-            { date: "2026-01-25", time: "17.30" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    }
-    
+    }    
     
 ];
 
