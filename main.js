@@ -37,7 +37,18 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
-    }    
+    },
+      {
+        title: "Cime Tempestose",
+        genre: "Romantico",
+        duration: "136 min",
+        poster: "immagini/cime tempestose.png",
+        showings: [
+            
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    } 
     
 ];
 
