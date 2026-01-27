@@ -43,8 +43,7 @@ const films = [
         genre: "Romantico",
         duration: "136 min",
         poster: "immagini/cime tempestose.png",
-        showings: [
-            
+        showings: [   
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
