@@ -20,7 +20,6 @@ const films = [
         duration: "98 min",
         poster: "immagini/elena1.jpg",
         showings: [ 
-            { date: "2026-01-27", time: "18.00" },
             { date: "2026-01-30", time: "21.00" },
             { date: "2026-01-31", time: "21.00" }
         ],
@@ -38,6 +37,18 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
+    {
+        title: "2000 Metri ad Andriivka",
+        genre: "Documentario",
+        duration: "111 min",
+        poster: "immagini/2000 METRI AD ANDRIIVKA.jpg",
+        showings: [  
+            { date: "2026-02-23", time: "21.00" },
+            { date: "2026-02-24", time: "21.00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
       {
         title: "Cime Tempestose",
         genre: "Romantico",
@@ -47,8 +58,8 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
-    } 
-    
+    }
+     
 ];
 
 // Funzione per formato data
