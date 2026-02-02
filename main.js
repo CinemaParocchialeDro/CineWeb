@@ -15,24 +15,23 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
       {
-        title: "Elena del Ghetto",
-        genre: "Drammatico",
-        duration: "98 min",
-        poster: "immagini/elena1.jpg",
+        title: "Buen Camino",
+        genre: "Commedia",
+        duration: "90 min",
+        poster: "immagini/buencMINO.jpg",
         showings: [ 
-            { date: "2026-01-30", time: "21.00" },
-            { date: "2026-01-31", time: "21.00" }
+            { date: "2026-02-07", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
     {
-        title: "La Grazia",
+        title: "Norimberga",
         genre: "Drammatico",
-        duration: "133 min",
-        poster: "immagini/LA GRAZIA.jpg",
+        duration: "148 min",
+        poster: "immagini/NORIMBERGA1.jpg",
         showings: [
-            { date: "2026-02-01", time: "21.00" }
+            { date: "2026-02-08", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
