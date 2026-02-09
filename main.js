@@ -14,28 +14,22 @@ function GalleryWorkInProgress() {
 // Informazione programmazione corrente
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
-      {
-        title: "Buen Camino",
-        genre: "Commedia",
-        duration: "90 min",
-        poster: "immagini/buencMINO.jpg",
-        showings: [ 
-            { date: "2026-02-07", time: "21.00" }
+        {
+        title: "Cime Tempestose",
+        genre: "Romantico",
+        duration: "136 min",
+        poster: "immagini/cime tempestose.png",
+        isPremiere: true,      
+        showings: [  
+            { date: "2026-02-12", time: "21.00" },
+            { date: "2026-02-14", time: "21.00" },
+            { date: "2026-02-15", time: "21.00" },
+            { date: "2026-02-21", time: "21.00" },
+            { date: "2026-02-22", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
-        title: "Norimberga",
-        genre: "Drammatico",
-        duration: "148 min",
-        poster: "immagini/NORIMBERGA1.jpg",
-        showings: [
-            { date: "2026-02-08", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+        note: "PROSSIMAMENTE"
+    }.
     {
         title: "2000 Metri ad Andriivka",
         genre: "Documentario",
@@ -47,17 +41,8 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
-    },
-      {
-        title: "Cime Tempestose",
-        genre: "Romantico",
-        duration: "136 min",
-        poster: "immagini/cime tempestose.png",
-        showings: [   
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
     }
+    
      
 ];
 
