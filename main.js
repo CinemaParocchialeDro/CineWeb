@@ -28,7 +28,7 @@ const films = [
             { date: "2026-02-22", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     }.
     {
         title: "2000 Metri ad Andriivka",
