@@ -29,7 +29,7 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
-    }.
+    },
     {
         title: "2000 Metri ad Andriivka",
         genre: "Documentario",
