@@ -41,7 +41,62 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+    {
+        title: "HO DECISO DE NO MORIR",
+        genre: "Spettacolo Teatrale",
+        duration: "90 min",
+        poster: "immagini/Ce.Dro.jpeg",
+        showings: [  
+            { date: "2026-02-28", time: "20.45" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
+    },
+{
+        title: "SINISTRA O DESTRA STESSA MINESTRA",
+        genre: "Spettacolo Teatrale ",
+        duration: "90 min",
+        poster: "immagini/Ce.Dro.jpeg",
+        showings: [  
+            { date: "2026-03-07", time: "20.45" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
+    },
+{
+        title: "ECCO LA SPOSA",
+        genre: "Spettacolo Teatrale",
+        duration: "90 min",
+        poster: "immagini/Ce.Dro.jpeg",        showings: [  
+            { date: "2026-03-21", time: "20.45" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
+    },
+{
+        title: "TUT COLPA DE L’ORS",
+        genre: "Spettacolo Teatrale",
+        duration: "90 min",
+        poster: "immagini/Ce.Dro.jpeg",
+        showings: [  
+            { date: "2026-03-28", time: "20.45" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
+    },
+{
+        title: "TRA I LUMINI E I FIORELLINI",
+        genre: "Spettacolo Teatrale",
+        duration: "90 min",
+        poster: "immagini/Ce.Dro.jpeg",
+        showings: [  
+            { date: "2026-04-11", time: "20.45" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
     }
+
     
      
 ];
