@@ -14,22 +14,7 @@ function GalleryWorkInProgress() {
 // Informazione programmazione corrente
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
-        {
-        title: "Cime Tempestose",
-        genre: "Romantico",
-        duration: "136 min",
-        poster: "immagini/cime tempestose.png",
-        isPremiere: true,      
-        showings: [  
-            { date: "2026-02-12", time: "21.00" },
-            { date: "2026-02-14", time: "21.00" },
-            { date: "2026-02-15", time: "21.00" },
-            { date: "2026-02-21", time: "21.00" },
-            { date: "2026-02-22", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+        
     {
         title: "2000 Metri ad Andriivka",
         genre: "Documentario",
@@ -41,6 +26,19 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+    {
+        title: "Juventus - Primo Amore",
+        genre: "Documentario",
+        duration: "130 min",
+        poster: "immagini/juve.jpg",
+        isPremiere: true,      
+        showings: [  
+            { date: "2026-03-01", time: "" },
+            { date: "2026-03-02", time: "21.00" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "ORARIO DA DEFINIRE PER DOMENICA 01.03"
     },
     {
         title: "HO DECISO DE NO MORIR",
