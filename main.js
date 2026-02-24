@@ -30,7 +30,7 @@ const films = [
     {
         title: "Juventus - Primo Amore",
         genre: "Documentario",
-        duration: "130 min",
+        duration: "90 min",
         poster: "immagini/juve.jpg",     
         showings: [  
             { date: "2026-03-01", time: "" },
@@ -38,6 +38,18 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "ORARIO DA DEFINIRE PER DOMENICA 01.03"
+    },
+    {
+        title: "La Gioia",
+        genre: "Drammatico",
+        duration: "108 min",
+        poster: "immagini/gioia.jfif",
+        showings: [  
+            { date: "2026-03-08", time: "21.00" },
+            { date: "2026-03-09", time: "21.00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
     },
     {
         title: "HO DECISO DE NO MORIR",
