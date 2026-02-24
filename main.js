@@ -31,8 +31,7 @@ const films = [
         title: "Juventus - Primo Amore",
         genre: "Documentario",
         duration: "130 min",
-        poster: "immagini/juve.jpg",
-        isPremiere: true,      
+        poster: "immagini/juve.jpg",     
         showings: [  
             { date: "2026-03-01", time: "" },
             { date: "2026-03-02", time: "21.00" },
