@@ -15,29 +15,30 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
         
-    {
-        title: "2000 Metri ad Andriivka",
-        genre: "Documentario",
-        duration: "111 min",
-        poster: "immagini/2000 METRI AD ANDRIIVKA.jpg",
-        showings: [  
-            { date: "2026-02-23", time: "21.00" },
-            { date: "2026-02-24", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+    
     {
         title: "Juventus - Primo Amore",
         genre: "Documentario",
         duration: "90 min",
         poster: "immagini/juve.jpg",     
         showings: [  
-            { date: "2026-03-01", time: "" },
+            { date: "2026-03-01", time: "17.30" },
             { date: "2026-03-02", time: "21.00" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "ORARIO DA DEFINIRE PER DOMENICA 01.03"
+    },
+    {
+        title: "Domani interrogo",
+        genre: "Commedia",
+        duration: "95 min",
+        poster: "immagini/interoogo.jpg",
+        showings: [  
+            { date: "2026-03-01", time: "21.00" },
+            { date: "2026-03-06", time: "21.00" }
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
     },
     {
         title: "La Gioia",
@@ -51,6 +52,7 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
+    
     {
         title: "HO DECISO DE NO MORIR",
         genre: "Spettacolo Teatrale",
