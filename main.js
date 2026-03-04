@@ -51,7 +51,7 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
-    }
+    },
 {
         title: "SINISTRA O DESTRA STESSA MINESTRA",
         genre: "Spettacolo Teatrale ",
