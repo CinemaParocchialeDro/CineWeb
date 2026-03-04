@@ -17,18 +17,6 @@ const films = [
         
     
     {
-        title: "Juventus - Primo Amore",
-        genre: "Documentario",
-        duration: "90 min",
-        poster: "immagini/juve.jpg",     
-        showings: [  
-            { date: "2026-03-01", time: "17.30" },
-            { date: "2026-03-02", time: "21.00" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "ORARIO DA DEFINIRE PER DOMENICA 01.03"
-    },
-    {
         title: "Domani interrogo",
         genre: "Commedia",
         duration: "95 min",
@@ -52,18 +40,18 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
-    
     {
-        title: "HO DECISO DE NO MORIR",
-        genre: "Spettacolo Teatrale",
-        duration: "90 min",
-        poster: "immagini/Ce.Dro.jpeg",
+        title: "Hamnet- Nel Nome del Figlio",
+        genre: "Drammatico",
+        duration: "125 min",
+        poster: "immagini/hamnet.jpg",
         showings: [  
-            { date: "2026-02-28", time: "20.45" },
+            { date: "2026-03-14", time: "21.00" },
+            { date: "2026-03-15", time: "21.00" }
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
-    },
+        note: ""
+    }
 {
         title: "SINISTRA O DESTRA STESSA MINESTRA",
         genre: "Spettacolo Teatrale ",
