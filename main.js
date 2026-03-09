@@ -17,18 +17,6 @@ const films = [
         
     
     {
-        title: "Domani interrogo",
-        genre: "Commedia",
-        duration: "95 min",
-        poster: "immagini/interoogo.jpg",
-        showings: [  
-            { date: "2026-03-01", time: "21.00" },
-            { date: "2026-03-06", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
         title: "La Gioia",
         genre: "Drammatico",
         duration: "108 min",
@@ -51,17 +39,6 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
-    },
-{
-        title: "SINISTRA O DESTRA STESSA MINESTRA",
-        genre: "Spettacolo Teatrale ",
-        duration: "90 min",
-        poster: "immagini/Ce.Dro.jpeg",
-        showings: [  
-            { date: "2026-03-07", time: "20.45" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
     },
 {
         title: "ECCO LA SPOSA",
