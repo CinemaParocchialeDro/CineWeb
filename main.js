@@ -17,18 +17,6 @@ const films = [
         
     
     {
-        title: "La Gioia",
-        genre: "Drammatico",
-        duration: "108 min",
-        poster: "immagini/gioia.jfif",
-        showings: [  
-            { date: "2026-03-08", time: "21.00" },
-            { date: "2026-03-09", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
         title: "Hamnet- Nel Nome del Figlio",
         genre: "Drammatico",
         duration: "125 min",
