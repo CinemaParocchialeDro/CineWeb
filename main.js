@@ -16,18 +16,6 @@ function GalleryWorkInProgress() {
 const films = [
         
     
-    {
-        title: "Hamnet- Nel Nome del Figlio",
-        genre: "Drammatico",
-        duration: "125 min",
-        poster: "immagini/hamnet.jpg",
-        showings: [  
-            { date: "2026-03-14", time: "21.00" },
-            { date: "2026-03-15", time: "21.00" }
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
 {
         title: "ECCO LA SPOSA",
         genre: "Spettacolo Teatrale",
