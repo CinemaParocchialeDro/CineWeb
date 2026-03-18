@@ -20,11 +20,24 @@ const films = [
         title: "ECCO LA SPOSA",
         genre: "Spettacolo Teatrale",
         duration: "90 min",
-        poster: "immagini/Ce.Dro.jpeg",        showings: [  
+        poster: "immagini/Ce.Dro.jpeg",       
+        showings: [  
             { date: "2026-03-21", time: "20.45" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
+    },
+      {
+        title: "REMINDERS OF HIM- la Parte Migliore di Te",
+        genre: "Romantico",
+        duration: "115 min",
+        poster: "immagini/reminders-wp.jpg",       
+        showings: [  
+            { date: "2026-03-22", time: "21.00" },
+            { date: "2026-03-23", time: "21.00" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
     },
 {
         title: "TUT COLPA DE L’ORS",
@@ -36,6 +49,18 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
+    },
+    {
+        title: "LAVOREREMO DA GRANDI",
+        genre: "Commedia",
+        duration: "110 min",
+        poster: "immagini/lavor.jpg",       
+        showings: [  
+            { date: "2026-03-29", time: "21.00" },
+            { date: "2026-03-30", time: "21.00" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
     },
 {
         title: "TRA I LUMINI E I FIORELLINI",
