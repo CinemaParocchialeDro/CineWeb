@@ -54,7 +54,7 @@ const films = [
         title: "LAVOREREMO DA GRANDI",
         genre: "Commedia",
         duration: "110 min",
-        poster: "immagini/lavoreremo123.jpg",       
+        poster: "immagini/grandi lav.jpg",       
         showings: [  
             { date: "2026-03-29", time: "21.00" },
             { date: "2026-03-30", time: "21.00" },
