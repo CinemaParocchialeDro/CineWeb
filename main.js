@@ -62,7 +62,7 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
-{
+    {
         title: "TRA I LUMINI E I FIORELLINI",
         genre: "Spettacolo Teatrale",
         duration: "90 min",
@@ -72,7 +72,51 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
+    },
+    {
+        title: "CHE DIO PERDONA A TUTTI",
+        genre: "Commedia",
+        duration: "120 min",
+        poster: "immagini/dio perd.jpg",       
+        showings: [  
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
+        title: "SUPER MARIO BROS - IL FILM",
+        genre: "Animazione, Avventura",
+        duration: "120 min",
+        poster: "immagini/bross.jpg", 
+        isPremiere: true,
+        showings: [  
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
+        title: "MICHARL",
+        genre: "Musicale, Drammatico",
+        duration: "127 min",
+        poster: "immagini/michael.jpg", 
+        isPremiere: true,
+        showings: [  
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
+        title: "IL DIAVOLO VESTE PRADA 2",
+        genre: "Commedia",
+        duration: "120 min",
+        poster: "immagini/prada 222.jpg", 
+        isPremiere: true,
+        showings: [  
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
+    
 
     
      
