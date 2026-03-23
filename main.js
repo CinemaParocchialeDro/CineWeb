@@ -15,18 +15,7 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
         
-    
-{
-        title: "ECCO LA SPOSA",
-        genre: "Spettacolo Teatrale",
-        duration: "90 min",
-        poster: "immagini/Ce.Dro.jpeg",       
-        showings: [  
-            { date: "2026-03-21", time: "20.45" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
-    },
+ 
       {
         title: "REMINDERS OF HIM- la Parte Migliore di Te",
         genre: "Romantico",
@@ -72,6 +61,17 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
+    },
+    {
+        title: "MINA DE ORO",
+        genre: "Docufilm",
+        duration: "90 min",
+        poster: "immagini/via pacis.png",       
+        showings: [  
+            { date: "2026-04-12", time: "21.00" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PRENOTAZIONI APERTE 7 GIORNI PRIMA"
     },
     {
         title: "CHE DIO PERDONA A TUTTI",
