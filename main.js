@@ -16,18 +16,7 @@ function GalleryWorkInProgress() {
 const films = [
         
  
-      {
-        title: "REMINDERS OF HIM- la Parte Migliore di Te",
-        genre: "Romantico",
-        duration: "115 min",
-        poster: "immagini/reminders-wp.jpg",       
-        showings: [  
-            { date: "2026-03-22", time: "21.00" },
-            { date: "2026-03-23", time: "21.00" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+      
 {
         title: "TUT COLPA DE L’ORS",
         genre: "Spettacolo Teatrale",
