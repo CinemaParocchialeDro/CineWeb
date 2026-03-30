@@ -16,18 +16,6 @@ function GalleryWorkInProgress() {
 const films = [
         
  
-      
-{
-        title: "TUT COLPA DE L’ORS",
-        genre: "Spettacolo Teatrale",
-        duration: "90 min",
-        poster: "immagini/Ce.Dro.jpeg",
-        showings: [  
-            { date: "2026-03-28", time: "20.45" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
-    },
     {
         title: "LAVOREREMO DA GRANDI",
         genre: "Commedia",
