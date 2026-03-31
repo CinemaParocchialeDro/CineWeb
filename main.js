@@ -15,29 +15,36 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
         
- 
-    {
-        title: "LAVOREREMO DA GRANDI",
+ {
+        title: "...CHE DIO PERDONA A TUTTI",
         genre: "Commedia",
-        duration: "110 min",
-        poster: "immagini/grandi lav.jpg",       
+        duration: "120 min",
+        poster: "immagini/dio perd.jpg",
+        isPremiere: true,
         showings: [  
-            { date: "2026-03-29", time: "21.00" },
-            { date: "2026-03-30", time: "21.00" },
+             { date: "2026-04-04", time: "18.00" },
+             { date: "2026-04-05", time: "21.00" },
+             { date: "2026-04-06", time: "21.00" },
+             { date: "2026-04-10", time: "21.00" },
+             { date: "2026-04-13", time: "21.00" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
-    {
-        title: "TRA I LUMINI E I FIORELLINI",
-        genre: "Spettacolo Teatrale",
-        duration: "90 min",
-        poster: "immagini/Ce.Dro.jpeg",
+     {
+        title: "SUPER MARIO BROS - IL FILM",
+        genre: "Animazione, Avventura",
+        duration: "120 min",
+        poster: "immagini/bross.jpg", 
+        isPremiere: true,
         showings: [  
-            { date: "2026-04-11", time: "20.45" },
+             { date: "2026-04-05", time: "17.30" },
+             { date: "2026-04-06", time: "17.30" },
+             { date: "2026-04-11", time: "14.00" },
+             { date: "2026-04-12", time: "17.30" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
+        note: "PROSSIMAMENTE"
     },
     {
         title: "MINA DE ORO",
@@ -51,25 +58,15 @@ const films = [
         note: "PRENOTAZIONI APERTE 7 GIORNI PRIMA"
     },
     {
-        title: "CHE DIO PERDONA A TUTTI",
-        genre: "Commedia",
-        duration: "120 min",
-        poster: "immagini/dio perd.jpg",       
+        title: "TRA I LUMINI E I FIORELLINI",
+        genre: "Spettacolo Teatrale",
+        duration: "90 min",
+        poster: "immagini/Ce.Dro.jpeg",
         showings: [  
+            { date: "2026-04-11", time: "20.45" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
-    },
-    {
-        title: "SUPER MARIO BROS - IL FILM",
-        genre: "Animazione, Avventura",
-        duration: "120 min",
-        poster: "immagini/bross.jpg", 
-        isPremiere: true,
-        showings: [  
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
     },
     {
         title: "MICHARL",
