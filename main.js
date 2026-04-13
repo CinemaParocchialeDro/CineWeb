@@ -32,52 +32,33 @@ const films = [
         note: ""
     },
      {
-        title: "SUPER MARIO BROS - IL FILM",
-        genre: "Animazione, Avventura",
-        duration: "120 min",
-        poster: "immagini/bross.jpg", 
-        isPremiere: true,
+        title: "THE DRAMA",
+        genre: "Romantico",
+        duration: "106 min",
+        poster: "immagini/he drama.jpg", 
         showings: [  
-             { date: "2026-04-05", time: "17.30" },
-             { date: "2026-04-06", time: "17.30" },
-             { date: "2026-04-11", time: "14.00" },
-             { date: "2026-04-12", time: "17.30" },
+             { date: "2026-04-18", time: "21.00" },
+             { date: "2026-04-19", time: "21.00" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
     {
-        title: "MINA DE ORO",
-        genre: "Docufilm",
-        duration: "90 min",
-        poster: "immagini/via pacis.png",       
-        showings: [  
-            { date: "2026-04-12", time: "21.00" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI APERTE 7 GIORNI PRIMA"
-    },
-    {
-        title: "TRA I LUMINI E I FIORELLINI",
-        genre: "Spettacolo Teatrale",
-        duration: "90 min",
-        poster: "immagini/Ce.Dro.jpeg",
-        showings: [  
-            { date: "2026-04-11", time: "20.45" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI ON-LINE APERTE DAL 27.02"
-    },
-    {
-        title: "MICHARL",
+        title: "MICHAEL",
         genre: "Musicale, Drammatico",
         duration: "127 min",
         poster: "immagini/michael.jpg", 
         isPremiere: true,
-        showings: [  
+        showings: [ 
+             { date: "2026-04-23", time: "21.00" },
+             { date: "2026-04-25", time: "21.00" },
+             { date: "2026-04-26", time: "21.00" },
+             { date: "2026-05-01", time: "21.00" },
+             { date: "2026-05-02", time: "21.00" },
+             { date: "2026-05-03", time: "21.00" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PRENOTAZIONI APERTE 7 GIORNI PRIMA"
     },
     {
         title: "IL DIAVOLO VESTE PRADA 2",
@@ -86,6 +67,10 @@ const films = [
         poster: "immagini/prada 222.jpg", 
         isPremiere: true,
         showings: [  
+             { date: "2026-05-09", time: "21.00" },
+             { date: "2026-05-10", time: "21.00" },
+             { date: "2026-05-16", time: "21.00" },
+             { date: "2026-05-17", time: "21.00" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
