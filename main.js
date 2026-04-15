@@ -15,22 +15,7 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
         
- {
-        title: "...CHE DIO PERDONA A TUTTI",
-        genre: "Commedia",
-        duration: "120 min",
-        poster: "immagini/dio perd.jpg",
-        isPremiere: true,
-        showings: [  
-             { date: "2026-04-04", time: "18.00" },
-             { date: "2026-04-05", time: "21.00" },
-             { date: "2026-04-06", time: "21.00" },
-             { date: "2026-04-10", time: "21.00" },
-             { date: "2026-04-13", time: "21.00" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+ 
      {
         title: "THE DRAMA",
         genre: "Romantico",
