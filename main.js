@@ -40,6 +40,7 @@ const films = [
         poster: "immagini/prada 222.jpg", 
         isPremiere: true,
         showings: [  
+             { date: "2026-05-04", time: "21.00" },
              { date: "2026-05-09", time: "21.00" },
              { date: "2026-05-10", time: "21.00" },
              { date: "2026-05-16", time: "21.00" },
