@@ -16,18 +16,6 @@ function GalleryWorkInProgress() {
 const films = [
         
  
-     {
-        title: "THE DRAMA",
-        genre: "Romantico",
-        duration: "106 min",
-        poster: "immagini/he drama.jpg", 
-        showings: [  
-             { date: "2026-04-18", time: "21.00" },
-             { date: "2026-04-19", time: "21.00" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
     {
         title: "MICHAEL",
         genre: "Musicale, Drammatico",
@@ -35,7 +23,7 @@ const films = [
         poster: "immagini/michael.jpg", 
         isPremiere: true,
         showings: [ 
-             { date: "2026-04-23", time: "21.00" },
+             { date: "2026-04-22", time: "21.00" },
              { date: "2026-04-25", time: "21.00" },
              { date: "2026-04-26", time: "21.00" },
              { date: "2026-05-01", time: "21.00" },
