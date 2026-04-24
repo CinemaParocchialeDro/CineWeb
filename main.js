@@ -31,7 +31,7 @@ const films = [
              { date: "2026-05-03", time: "21.00" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI APERTE 7 GIORNI PRIMA"
+        note: "PRENOTAZIONI OF-LINE"
     },
     {
         title: "IL DIAVOLO VESTE PRADA 2",
@@ -47,7 +47,7 @@ const films = [
              { date: "2026-05-17", time: "21.00" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "PRENOTAZIONI OF-LINE"
     }
     
 
