@@ -23,9 +23,6 @@ const films = [
         poster: "immagini/michael.jpg", 
         isPremiere: true,
         showings: [ 
-             { date: "2026-04-22", time: "21.00" },
-             { date: "2026-04-25", time: "21.00" },
-             { date: "2026-04-26", time: "21.00" },
              { date: "2026-05-01", time: "21.00" },
              { date: "2026-05-02", time: "21.00" },
              { date: "2026-05-03", time: "21.00" },
