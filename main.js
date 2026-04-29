@@ -47,8 +47,8 @@ const films = [
         note: ""
     },
      {
-        title: "IL DIAVOLO VESTE PRADA 2",
-        genre: "Commedia",
+        title: "UN MARE DI AVVENTURE",
+        genre: "Musical",
         duration: "120 min",
         poster: "immagini/locandina 10 maggio.jpeg", 
         isPremiere: true,
