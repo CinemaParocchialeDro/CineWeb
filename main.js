@@ -45,6 +45,18 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+     {
+        title: "IL DIAVOLO VESTE PRADA 2",
+        genre: "Commedia",
+        duration: "120 min",
+        poster: "immagini/locandina 10 maggio.jpeg", 
+        isPremiere: true,
+        showings: [  
+             { date: "2026-05-10", time: "17.30" },      
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "SPETTACOLO DAL VIVO"
     }
     
 
