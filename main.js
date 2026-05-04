@@ -43,7 +43,7 @@ const films = [
              { date: "2026-05-10", time: "17.30" },      
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SPETTACOLO DAL VIVO"
+        note: "PRENOTAZIONI SU https://www.liveticket.it/unmarediavventure"
     }
     
 
