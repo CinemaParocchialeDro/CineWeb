@@ -17,20 +17,6 @@ const films = [
         
  
     {
-        title: "MICHAEL",
-        genre: "Musicale, Drammatico",
-        duration: "127 min",
-        poster: "immagini/michael.jpg", 
-        isPremiere: true,
-        showings: [ 
-             { date: "2026-05-01", time: "21.00" },
-             { date: "2026-05-02", time: "21.00" },
-             { date: "2026-05-03", time: "21.00" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
         title: "IL DIAVOLO VESTE PRADA 2",
         genre: "Commedia",
         duration: "120 min",
@@ -38,6 +24,7 @@ const films = [
         isPremiere: true,
         showings: [  
              { date: "2026-05-04", time: "21.00" },
+             { date: "2026-05-08", time: "21.00" },
              { date: "2026-05-09", time: "21.00" },
              { date: "2026-05-10", time: "21.00" },
              { date: "2026-05-16", time: "21.00" },
