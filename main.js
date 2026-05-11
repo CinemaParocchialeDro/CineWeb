@@ -54,7 +54,7 @@ const films = [
              { date: "2026-06-14", time: "17.30" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "PRENOTAZIONI APERTE 7 GIORNI PRIMA"
     },
      {
         title: "MINIONS & MONSTER",
