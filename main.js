@@ -23,27 +23,64 @@ const films = [
         poster: "immagini/prada 222.jpg", 
         isPremiere: true,
         showings: [  
-             { date: "2026-05-04", time: "21.00" },
-             { date: "2026-05-08", time: "21.00" },
-             { date: "2026-05-09", time: "21.00" },
-             { date: "2026-05-10", time: "21.00" },
+             
              { date: "2026-05-16", time: "21.00" },
              { date: "2026-05-17", time: "21.00" },
+             { date: "2026-05-21", time: "21.00" },
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+    {
+        title: "MICHAEL",
+        genre: "Musicale",
+        duration: "120 min",
+        poster: "immagini/michael.jpg", 
+        showings: [  
+             
+             { date: "2026-05-19", time: "21.00" }, 
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
      {
-        title: "UN MARE DI AVVENTURE",
-        genre: "Musical",
-        duration: "120 min",
-        poster: "immagini/locandina 10 maggio.jpeg", 
+        title: "MINIONS & MONSTER",
+        genre: "Animazione",
+        duration: "90 min",
+        poster: "immagini/MINIONS.jpg", 
         isPremiere: true,
         showings: [  
-             { date: "2026-05-10", time: "17.30" },      
+
+            
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PRENOTAZIONI SU https://www.liveticket.it/unmarediavventure"
+        note: "PROSSIMAMENTE"
+    },
+    {
+        title: "ODISSEA",
+        genre: "Avventura, Azione, Storico",
+        duration: "180 min",
+        poster: "immagini/ODISSEA.jpg", 
+        isPremiere: true,
+        showings: [  
+
+            
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+     {
+        title: "OCEANIA - Il Film",
+        genre: "Avventura, Commedia, family",
+        duration: "120 min",
+        poster: "immagini/OCEANIA.jpg", 
+        isPremiere: true,
+        showings: [  
+
+            
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
     
 
