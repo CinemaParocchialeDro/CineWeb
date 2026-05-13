@@ -43,6 +43,18 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
+    {
+        title: "IL FIGLIO DEL DESERTO",
+        genre: "Family",
+        duration: "92 min",
+        poster: "immagini/FIGLIO DESERTO.jpg", 
+        showings: [  
+             
+             { date: "2026-06-06", time: "16.30" }, 
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "ORARIO DA CONFERMARE"
+    },
      {
         title: "THE MANDALORIAN AND GROGU",
         genre: "Azione, Avventura, Fantasy",
