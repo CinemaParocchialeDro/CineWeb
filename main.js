@@ -24,21 +24,8 @@ const films = [
         isPremiere: true,
         showings: [  
              
-             { date: "2026-05-16", time: "21.00" },
-             { date: "2026-05-17", time: "21.00" },
+            
              { date: "2026-05-21", time: "21.00" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
-    {
-        title: "MICHAEL",
-        genre: "Musicale",
-        duration: "120 min",
-        poster: "immagini/michael.jpg", 
-        showings: [  
-             
-             { date: "2026-05-19", time: "21.00" }, 
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
