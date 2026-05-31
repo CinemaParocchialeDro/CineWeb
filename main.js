@@ -16,20 +16,7 @@ function GalleryWorkInProgress() {
 const films = [
         
  
-    {
-        title: "IL DIAVOLO VESTE PRADA 2",
-        genre: "Commedia",
-        duration: "120 min",
-        poster: "immagini/prada 222.jpg", 
-        isPremiere: true,
-        showings: [  
-             
-            
-             { date: "2026-05-21", time: "21.00" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+   
     {
         title: "IL FIGLIO DEL DESERTO",
         genre: "Family",
