@@ -18,16 +18,17 @@ const films = [
  
    
     {
-        title: "IL FIGLIO DEL DESERTO",
-        genre: "Family",
-        duration: "92 min",
-        poster: "immagini/FIGLIO DESERTO.jpg", 
+        title: "DISCLOSURE DAY",
+        genre: "Fantascienza, Thriller",
+        duration: "145 min",
+        poster: "immagini/DISCLOSURE DAY.png", 
         showings: [  
              
-             { date: "2026-06-06", time: "16.30" }, 
+             { date: "2026-06-20", time: "21.00" }, 
+             { date: "2026-06-21", time: "21.00" },
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "ORARIO DA CONFERMARE"
+        note: ""
     },
      {
         title: "THE MANDALORIAN AND GROGU",
@@ -48,12 +49,16 @@ const films = [
         duration: "90 min",
         poster: "immagini/MINIONS.jpg", 
         isPremiere: true,
-        showings: [  
-
+        showings: [ 
+             { date: "2026-07-01", time: "21.00" }, 
+             { date: "2026-07-04", time: "21.00" },
+             { date: "2026-07-05", time: "17.30" }, 
+             { date: "2026-07-11", time: "21.00" },
+             { date: "2026-07-12", time: "17.30" },
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
     {
         title: "ODISSEA",
@@ -62,15 +67,20 @@ const films = [
         poster: "immagini/ODISSEA.jpg", 
         isPremiere: true,
         showings: [  
+            { date: "2026-07-16", time: "21.00" }, 
+             { date: "2026-07-18", time: "21.00" },
+             { date: "2026-07-19", time: "21.00" }, 
+             { date: "2026-07-25", time: "21.00" },
+             { date: "2026-07-26", time: "21.21" },
 
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
      {
         title: "OCEANIA - Il Film",
-        genre: "Avventura, Commedia, family",
+        genre: "Avventura, Commedia, Family",
         duration: "120 min",
         poster: "immagini/OCEANIA.jpg", 
         isPremiere: true,
