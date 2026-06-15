@@ -16,19 +16,7 @@ function GalleryWorkInProgress() {
 const films = [
         
     
-     {
-        title: "THE MANDALORIAN AND GROGU",
-        genre: "Azione, Avventura, Fantasy",
-        duration: "132 min",
-        poster: "immagini/MANDALORIAN.jpeg", 
-        showings: [  
-             
-             { date: "2026-06-13", time: "21.00" }, 
-             { date: "2026-06-14", time: "17.30" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+    
     {
         title: "DISCLOSURE DAY",
         genre: "Fantascienza, Thriller",
