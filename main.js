@@ -17,20 +17,6 @@ const films = [
         
     
     
-    {
-        title: "DISCLOSURE DAY",
-        genre: "Fantascienza, Thriller",
-        duration: "145 min",
-        poster: "immagini/DISCLOSURE DAY.png", 
-        showings: [  
-             
-             { date: "2026-06-20", time: "21.00" }, 
-             { date: "2026-06-21", time: "21.00" },
-             { date: "2026-06-28", time: "21.00" },
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
      {
         title: "MINIONS & MONSTER",
         genre: "Animazione",
