@@ -32,7 +32,7 @@ const films = [
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "SALA CLIMATIZZATA"
     },
     {
         title: "ODISSEA",
@@ -50,7 +50,7 @@ const films = [
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "SALA CLIMATIZZATA"
     },
      {
         title: "OCEANIA - Il Film",
