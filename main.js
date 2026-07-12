@@ -17,23 +17,6 @@ const films = [
         
     
     
-     {
-        title: "MINIONS & MONSTER",
-        genre: "Animazione",
-        duration: "90 min",
-        poster: "immagini/MINIONS.jpg", 
-        isPremiere: true,
-        showings: [ 
-             { date: "2026-07-01", time: "21.00" }, 
-             { date: "2026-07-04", time: "21.00" },
-             { date: "2026-07-05", time: "17.30" }, 
-             { date: "2026-07-11", time: "21.00" },
-             { date: "2026-07-12", time: "17.30" },
-            
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
-    },
     {
         title: "ODISSEA",
         genre: "Avventura, Azione, Storico",
