@@ -24,12 +24,9 @@ const films = [
         poster: "immagini/ODISSEA.jpg", 
         isPremiere: true,
         showings: [  
-            { date: "2026-07-16", time: "21.00" }, 
-             { date: "2026-07-18", time: "21.00" },
-             { date: "2026-07-19", time: "21.00" }, 
-             { date: "2026-07-25", time: "21.00" },
-             { date: "2026-07-26", time: "21.00" },
-
+            { date: "2026-07-30", time: "21.00" }, 
+            { date: "2026-08-02", time: "21.00" },
+            
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
