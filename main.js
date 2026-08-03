@@ -24,9 +24,28 @@ const films = [
         poster: "immagini/ODISSEA.jpg", 
         isPremiere: true,
         showings: [  
-            { date: "2026-07-30", time: "21.00" }, 
-            { date: "2026-08-02", time: "21.00" },
+            { date: "2026-08-06", time: "20.00" }, 
+           
             
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "SALA CLIMATIZZATA"
+    },
+
+    
+    {
+        title: "SPIDER-MAN: Brand New Day",
+        genre: "Azione",
+        duration: "145 min",
+        poster: "immagini/images (6).jpg", 
+        isPremiere: true,
+        showings: [  
+            { date: "2026-08-07", time: "21.00" }, 
+            { date: "2026-08-08", time: "21.00" },
+            { date: "2026-08-06", time: "21.00" },
+            { date: "2026-08-15", time: "21.00" },
+            { date: "2026-08-16", time: "21.00" },
+           
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
