@@ -23,7 +23,7 @@ const films = [
         poster: "immagini/images (6).jpg", 
         isPremiere: true,
         showings: [  
-            { date: "2026-08-07", time: "21.00" }, 
+ 
             { date: "2026-08-08", time: "21.00" },
             { date: "2026-08-09", time: "21.00" },
             { date: "2026-08-15", time: "21.00" },
@@ -42,6 +42,7 @@ const films = [
         poster: "immagini/ODISSEA.jpg", 
         isPremiere: true,
         showings: [  
+            
             { date: "2026-08-10", time: "20.00" }, 
            
             
