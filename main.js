@@ -15,24 +15,7 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
         
-    
-    
-    {
-        title: "ODISSEA",
-        genre: "Avventura, Azione, Storico",
-        duration: "180 min",
-        poster: "immagini/ODISSEA.jpg", 
-        isPremiere: true,
-        showings: [  
-            { date: "2026-08-06", time: "20.00" }, 
-           
-            
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
-    },
 
-    
     {
         title: "SPIDER-MAN: Brand New Day",
         genre: "Azione",
@@ -51,6 +34,22 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "SALA CLIMATIZZATA"
     },
+
+    {
+        title: "ODISSEA",
+        genre: "Avventura, Azione, Storico",
+        duration: "180 min",
+        poster: "immagini/ODISSEA.jpg", 
+        isPremiere: true,
+        showings: [  
+            { date: "2026-08-10", time: "20.00" }, 
+           
+            
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "SALA CLIMATIZZATA"
+    },
+    
      {
         title: "OCEANIA - Il Film",
         genre: "Avventura, Commedia, Family",
