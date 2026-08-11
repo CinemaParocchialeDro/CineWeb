@@ -24,8 +24,7 @@ const films = [
         isPremiere: true,
         showings: [  
  
-            { date: "2026-08-08", time: "21.00" },
-            { date: "2026-08-09", time: "21.00" },
+           
             { date: "2026-08-15", time: "21.00" },
             { date: "2026-08-16", time: "21.00" },
            
@@ -35,21 +34,6 @@ const films = [
         note: "SALA CLIMATIZZATA"
     },
 
-    {
-        title: "ODISSEA",
-        genre: "Avventura, Azione, Storico",
-        duration: "180 min",
-        poster: "immagini/ODISSEA.jpg", 
-        isPremiere: true,
-        showings: [  
-            
-            { date: "2026-08-10", time: "20.00" }, 
-           
-            
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
-    },
     
      {
         title: "OCEANIA - Il Film",
