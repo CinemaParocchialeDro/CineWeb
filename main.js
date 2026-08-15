@@ -43,10 +43,16 @@ const films = [
         isPremiere: true,
         showings: [  
 
+            { date: "2026-08-19", time: "21.00" },
+            { date: "2026-08-22", time: "21.00" },
+            { date: "2026-08-23", time: "21.00" },
+            { date: "2026-08-29", time: "21.00" },
+            { date: "2026-08-30", time: "21.00" },
+        
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "SALA CLIMATIZZATA"
     }
     
 
