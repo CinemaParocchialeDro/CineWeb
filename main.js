@@ -26,6 +26,7 @@ const films = [
         showings: [  
 
             { date: "2026-08-29", time: "21.00" },
+             { date: "2026-08-30", time: "17.30" },
             { date: "2026-08-30", time: "21.00" },
         
             
