@@ -16,24 +16,6 @@ function GalleryWorkInProgress() {
 const films = [
         
 
-    {
-        title: "SPIDER-MAN: Brand New Day",
-        genre: "Azione",
-        duration: "145 min",
-        poster: "immagini/images (6).jpg", 
-        isPremiere: true,
-        showings: [  
- 
-           
-            { date: "2026-08-15", time: "21.00" },
-            { date: "2026-08-16", time: "21.00" },
-           
-            
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
-    },
-
     
      {
         title: "OCEANIA - Il Film",
@@ -43,9 +25,6 @@ const films = [
         isPremiere: true,
         showings: [  
 
-            { date: "2026-08-19", time: "21.00" },
-            { date: "2026-08-22", time: "21.00" },
-            { date: "2026-08-23", time: "21.00" },
             { date: "2026-08-29", time: "21.00" },
             { date: "2026-08-30", time: "21.00" },
         
