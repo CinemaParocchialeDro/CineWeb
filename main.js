@@ -52,6 +52,23 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "SALA CLIMATIZZATA"
+    },
+
+    {
+        title: "SPIDER-MAN: Brand New Day",
+        genre: "Avventura, Azione",
+        duration: "145 min",
+        poster: "immagini/images (6).jpg", 
+        isPremiere: ,
+        showings: [  
+
+            { date: "2026-09-06", time: "21.00" },
+           ,
+        
+            
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "SALA CLIMATIZZATA"
     }
     
 
