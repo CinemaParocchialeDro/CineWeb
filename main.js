@@ -26,8 +26,27 @@ const films = [
         showings: [  
 
             { date: "2026-08-29", time: "21.00" },
-             { date: "2026-08-30", time: "17.30" },
+            { date: "2026-08-30", time: "17.30" },
             { date: "2026-08-30", time: "21.00" },
+        
+            
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "SALA CLIMATIZZATA"
+    },
+
+    
+     {
+        title: "COYOTE vs. ACME",
+        genre: "Avventura, Commedia, Family",
+        duration: "103 min",
+        poster: "immagini/COYOTE-VS.-ACME-new.jpg", 
+        isPremiere: true,
+        showings: [  
+
+            { date: "2026-09-05", time: "21.00" },
+            { date: "2026-09-06", time: "17.30" },
+            { date: "2026-09-13", time: "17.30" },
         
             
         ],
