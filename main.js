@@ -66,6 +66,21 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "SALA CLIMATIZZATA"
+    },
+
+      {
+        title: "AMORI E INCANTESIMI 2",
+        genre: "Fantastico, Romanticoy",
+        duration: "130 min",
+        poster: "immagini/amoriincantesimi2.jpg", 
+        isPremiere: true,
+        showings: [  
+
+            
+              
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
     
      
