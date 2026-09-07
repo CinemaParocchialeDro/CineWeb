@@ -14,84 +14,50 @@ function GalleryWorkInProgress() {
 // Informazione programmazione corrente
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
-        
 
-    
-     {
-        title: "OCEANIA - Il Film",
-        genre: "Avventura, Commedia, Family",
-        duration: "120 min",
-        poster: "immagini/OCEANIA.jpg", 
-        isPremiere: true,
-        showings: [  
-
-            { date: "2026-08-29", time: "21.00" },
-            { date: "2026-08-30", time: "17.30" },
-            { date: "2026-08-30", time: "21.00" },
-              
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
-    },
-
-    
-     {
+    {
         title: "COYOTE vs. ACME",
         genre: "Avventura, Commedia, Family",
         duration: "103 min",
-        poster: "immagini/COYOTE-VS.-ACME-new.jpg", 
+        poster: "immagini/COYOTE-VS.-ACME-new.jpg",
         isPremiere: true,
-        showings: [  
+        showings: [
 
             { date: "2026-09-05", time: "21.00" },
             { date: "2026-09-06", time: "17.30" },
             { date: "2026-09-13", time: "17.30" },
-        
-            
+
+
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "SALA CLIMATIZZATA"
     },
 
-    
     {
-        title: "SPIDER-MAN: Brand New Day",
-        genre: "Avventura, Azione",
-        duration: "145 min",
-        poster: "immagini/images (6).jpg", 
-        showings: [  
-
-            { date: "2026-09-06", time: "21.00" },
-           
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
-    },
-
-      {
         title: "AMORI E INCANTESIMI 2",
         genre: "Fantastico, Romanticoy",
         duration: "130 min",
-        poster: "immagini/amoriincantesimi2.jpg", 
+        poster: "immagini/amoriincantesimi2.jpg",
         isPremiere: true,
-        showings: [  
+        showings: [
+            { date: "2026-09-13", time: "21.00" },
+            { date: "2026-09-19", time: "21.00" },
+            { date: "2026-09-20", time: "21.00" },
 
-            
-              
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: "SALA CLIMATIZZATA"
     }
-    
-     
+
+
 ];
 
 // Funzione per formato data
 function formatDate(dateString) {
     const date = new Date(dateString);
-    const options = { 
-        weekday: 'long', 
-        day: 'numeric', 
+    const options = {
+        weekday: 'long',
+        day: 'numeric',
         month: 'long'
     };
     return date.toLocaleDateString('it-IT', options);
@@ -117,7 +83,7 @@ function generateScheduleHTML(showings) {
 
     const grouped = groupShowingsByDate(showings);
     let html = '<div class="schedule-container">';
-    
+
     Object.keys(grouped).sort().forEach(date => {
         const times = grouped[date].sort();
         html += `
@@ -129,7 +95,7 @@ function generateScheduleHTML(showings) {
             </div>
         `;
     });
-    
+
     html += '</div>';
     return html;
 }
@@ -137,7 +103,7 @@ function generateScheduleHTML(showings) {
 // Funzione per gestire click bottone "Prenota"
 function handleBookingClick(filmIndex) {
     console.log('handleBookingClick called with index:', filmIndex);
-    
+
     const film = films[filmIndex];
     console.log('bookingUrl:', film.bookingUrl);
 
@@ -145,9 +111,9 @@ function handleBookingClick(filmIndex) {
         console.error('Film not found for index:', filmIndex);
         return;
     }
-    
+
     console.log('Processing booking for film:', film.title);
-    
+
     if (film.bookingUrl) {
         window.open(film.bookingUrl, '_blank');
         if (!window) {
@@ -161,7 +127,7 @@ function handleBookingClick(filmIndex) {
 // Funzione per caricare la programmazione
 function loadProgrammazione() {
     const container = document.getElementById('filmsContainer');
-    
+
     if (!container) {
         console.error('Container filmsContainer not found');
         return;
@@ -171,7 +137,7 @@ function loadProgrammazione() {
 
     films.forEach((film, index) => {
         console.log('Creating card for film:', film.title, 'with index:', index);
-        
+
         const filmCard = document.createElement('div');
         filmCard.className = 'film-card';
 
@@ -193,18 +159,18 @@ function loadProgrammazione() {
                     <p><strong>Note:</strong> ${film.note}</p>
                 </div>
                 ${generateScheduleHTML(film.showings)}
-                ${ (film.showings && film.showings.length > 0) 
+                ${(film.showings && film.showings.length > 0)
                 ? `<button class="book-button" data-film-index="${index}">Prenota ora</button>`
                 : ''}
             </div>
         `;
-               
+
         // Aggiungi event listener al bottone appena creato
         const bookButton = filmCard.querySelector('.book-button');
-        console.log("Found bookButton?", bookButton);   
-        
-        if(bookButton){
-            bookButton.addEventListener('click', function() {
+        console.log("Found bookButton?", bookButton);
+
+        if (bookButton) {
+            bookButton.addEventListener('click', function () {
                 console.log('Button clicked for film index:', film.title);
                 handleBookingClick(index);
             });
@@ -214,16 +180,16 @@ function loadProgrammazione() {
 
         // Aggiunge la nuova filmCard in container che punta alla classe programmazione-container con id filmsContainer
         container.appendChild(filmCard);
-        
+
     });
 
     console.log('Programming loaded successfully');
 }
 
 // Initialize when DOM is loaded
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     console.log('DOM loaded, initializing Cinema Dro...');
-    
+
     // Load programming on startup
     loadProgrammazione();
 
@@ -245,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', () => {
         const scrolled = window.pageYOffset;
         const header = document.querySelector('.header');
-        
+
         if (header) {
             if (scrolled > 100) {
                 header.style.background = 'rgba(255, 255, 255, 0.98)';
@@ -297,5 +263,5 @@ document.addEventListener('DOMContentLoaded', function() {
             navLinks.classList.remove('active');
         });
     });
-    
+
 });
