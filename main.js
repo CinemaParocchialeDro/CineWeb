@@ -15,43 +15,8 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
         
-    
-    
-     {
-        title: "MINIONS & MONSTER",
-        genre: "Animazione",
-        duration: "90 min",
-        poster: "immagini/MINIONS.jpg", 
-        isPremiere: true,
-        showings: [ 
-             { date: "2026-07-01", time: "21.00" }, 
-             { date: "2026-07-04", time: "21.00" },
-             { date: "2026-07-05", time: "17.30" }, 
-             { date: "2026-07-11", time: "21.00" },
-             { date: "2026-07-12", time: "17.30" },
-            
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
-    },
-    {
-        title: "ODISSEA",
-        genre: "Avventura, Azione, Storico",
-        duration: "180 min",
-        poster: "immagini/ODISSEA.jpg", 
-        isPremiere: true,
-        showings: [  
-            { date: "2026-07-16", time: "21.00" }, 
-             { date: "2026-07-18", time: "21.00" },
-             { date: "2026-07-19", time: "21.00" }, 
-             { date: "2026-07-25", time: "21.00" },
-             { date: "2026-07-26", time: "21.00" },
 
-            
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
-    },
+    
      {
         title: "OCEANIA - Il Film",
         genre: "Avventura, Commedia, Family",
@@ -60,13 +25,63 @@ const films = [
         isPremiere: true,
         showings: [  
 
+            { date: "2026-08-29", time: "21.00" },
+            { date: "2026-08-30", time: "17.30" },
+            { date: "2026-08-30", time: "21.00" },
+              
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "SALA CLIMATIZZATA"
+    },
+
+    
+     {
+        title: "COYOTE vs. ACME",
+        genre: "Avventura, Commedia, Family",
+        duration: "103 min",
+        poster: "immagini/COYOTE-VS.-ACME-new.jpg", 
+        isPremiere: true,
+        showings: [  
+
+            { date: "2026-09-05", time: "21.00" },
+            { date: "2026-09-06", time: "17.30" },
+            { date: "2026-09-13", time: "17.30" },
+        
             
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "SALA CLIMATIZZATA"
+    },
+
+    
+    {
+        title: "SPIDER-MAN: Brand New Day",
+        genre: "Avventura, Azione",
+        duration: "145 min",
+        poster: "immagini/images (6).jpg", 
+        showings: [  
+
+            { date: "2026-09-06", time: "21.00" },
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "SALA CLIMATIZZATA"
+    },
+
+      {
+        title: "AMORI E INCANTESIMI 2",
+        genre: "Fantastico, Romanticoy",
+        duration: "130 min",
+        poster: "immagini/amoriincantesimi2.jpg", 
+        isPremiere: true,
+        showings: [  
+
+            
+              
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
     }
-    
-
     
      
 ];
