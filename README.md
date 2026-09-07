@@ -18,7 +18,7 @@ Questo progetto utilizza una strategia a 4 branch per mantenere separato il codi
 
 ## Come Modificare la Programmazione dei Film
 
-Per aggiornare o aggiungere nuovi film, devi modificare il file [`main.js`](file:///c:/Users/bonin/Luca/Cose%20varie/0_Parrocchia/SitoWebCinema/main.js).
+Per aggiornare o aggiungere nuovi film, è necessario modificare il file [`main.js`](file:///c:/Users/bonin/Luca/Cose%20varie/0_Parrocchia/SitoWebCinema/main.js).
 
 Tutte le informazioni sui film si trovano all'interno della variabile `const films = [...]` (a partire da riga 16 circa).
 
@@ -38,6 +38,24 @@ Ogni film segue questa struttura:
 }
 ```
 **Promemoria:**
-* Puoi aggiungere nuovi film copiando e incollando un blocco come quello qui sopra (ricordati la virgola `,` tra un film e l'altro).
-* Se il film non ha ancora orari, puoi lasciare l'array vuoto `showings: []` e apparirà la scritta "PROSSIMAMENTE".
-* Assicurati che l'immagine del poster sia stata caricata all'interno della cartella `immagini/` con il nome corretto.
+* È possibile aggiungere nuovi film copiando e incollando un blocco come quello qui sopra (ricordando la virgola `,` tra un film e l'altro).
+* Se il film non ha ancora orari, si può lasciare l'array vuoto `showings: []` e apparirà la scritta "PROSSIMAMENTE".
+* Assicurarsi che l'immagine del poster sia stata caricata all'interno della cartella `immagini/` con il nome corretto.
+
+## Connessioni Remote (GitHub)
+
+Questo progetto è configurato per lavorare con due server remoti ("remotes") separati, permettendo di lavorare e sperimentare in modo sicuro:
+
+### 1. `origine` (Spazio Personale)
+* **Cos'è:** È la copia personale (Fork) su GitHub (`LucaBoni28/cinema-dro.git`).
+* **A cosa serve:** È un ambiente di backup sicuro in cloud. Questo remoto viene utilizzato per salvare (`push`) esperimenti, branch personali o lavori non ancora finiti. Ciò che viene caricato qui non intacca in alcun modo il sito ufficiale.
+
+### 2. `origine-ufficiale` (Sito Ufficiale)
+* **Cos'è:** È il repository "padre" dell'organizzazione (`CinemaParocchialeDro/CineWeb`). 
+* **A cosa serve:** È la sorgente del vero sito web. Da qui si scaricano (`pull`) gli aggiornamenti creati dagli altri collaboratori per avere sempre l'ultima versione. Quando una modifica sullo spazio personale è terminata e testata, si utilizza una "Pull Request" per richiederne l'inserimento in questo repository ufficiale.
+
+### Flusso di lavoro (Workflow)
+1. **Pull:** Scaricare regolarmente gli aggiornamenti da `origine-ufficiale` per restare sincronizzati.
+2. **Lavoro:** Eseguire le modifiche sul computer locale.
+3. **Push:** Salvare il lavoro in corso sul proprio remoto `origine`.
+4. **Pubblica:** Proporre le modifiche finali inviandole a `origine-ufficiale`.
