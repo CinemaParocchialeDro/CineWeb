@@ -52,7 +52,6 @@ const films = [
         genre: "Azione, Avventura, Drammatico",
         duration: "101 min",
         poster: "immagini/bred pitt.jpg",
-        isPremiere: true,
         showings: [
 
            
