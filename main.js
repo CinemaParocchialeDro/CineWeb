@@ -16,38 +16,54 @@ function GalleryWorkInProgress() {
 const films = [
 
     {
-        title: "COYOTE vs. ACME",
-        genre: "Avventura, Commedia, Family",
-        duration: "103 min",
-        poster: "immagini/COYOTE-VS.-ACME-new.jpg",
-        isPremiere: true,
-        showings: [
-
-            { date: "2026-09-05", time: "21.00" },
-            { date: "2026-09-06", time: "17.30" },
-            { date: "2026-09-13", time: "17.30" },
-
-
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
-    },
-
-    {
         title: "AMORI E INCANTESIMI 2",
         genre: "Fantastico, Romanticoy",
         duration: "130 min",
         poster: "immagini/amoriincantesimi2.jpg",
         isPremiere: true,
         showings: [
-            { date: "2026-09-13", time: "21.00" },
+            
             { date: "2026-09-19", time: "21.00" },
             { date: "2026-09-20", time: "21.00" },
 
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "SALA CLIMATIZZATA"
+        note: ""
+    },
+
+      {
+        title: "SANTIAGO",
+        genre: "Drammatico, Commedia",
+        duration: "103 min",
+        poster: "immagini/santiago.jpg",
+        isPremiere: true,
+        showings: [
+
+           
+
+
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+
+     {
+        title: "HEART OF THE BEAST - Nel Profondo Selvaggio",
+        genre: "Azione, Avventura, Drammatico",
+        duration: "101 min",
+        poster: "immagini/bred pitt.jpg",
+        isPremiere: true,
+        showings: [
+
+           
+
+
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
+           
+    
 
 
 ];
