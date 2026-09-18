@@ -17,7 +17,7 @@ const films = [
 
     {
         title: "AMORI E INCANTESIMI 2",
-        genre: "Fantastico, Romanticoy",
+        genre: "Fantastico, Romantico",
         duration: "130 min",
         poster: "immagini/amoriincantesimi2.jpg",
         isPremiere: true,
