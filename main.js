@@ -18,7 +18,7 @@ const films = [
    
 
       {
-        title: "SANTIAGO",
+        title: "SANTIAGO - UN CAMMINO PER RICOMINCIARE",
         genre: "Drammatico, Commedia",
         duration: "103 min",
         poster: "immagini/santiago.jpg",
