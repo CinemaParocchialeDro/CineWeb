@@ -15,21 +15,7 @@ function GalleryWorkInProgress() {
 // Per cercare la copertina dei film: http://www.impawards.com/
 const films = [
 
-    {
-        title: "AMORI E INCANTESIMI 2",
-        genre: "Fantastico, Romantico",
-        duration: "130 min",
-        poster: "immagini/amoriincantesimi2.jpg",
-        isPremiere: true,
-        showings: [
-            
-            { date: "2026-09-19", time: "21.00" },
-            { date: "2026-09-20", time: "21.00" },
-
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+   
 
       {
         title: "SANTIAGO",
@@ -39,8 +25,9 @@ const films = [
         isPremiere: true,
         showings: [
 
-           
-
+            { date: "2026-09-26", time: "21.00" },
+            { date: "2026-09-27", time: "21.00" },
+            { date: "2026-10-03", time: "21.00" },
 
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
