@@ -40,13 +40,14 @@ const films = [
         duration: "101 min",
         poster: "immagini/bred pitt.jpg",
         showings: [
-
+            { date: "2026-10-10", time: "21.00" },
+            { date: "2026-10-11", time: "21.00" },
            
 
 
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     }
            
     
