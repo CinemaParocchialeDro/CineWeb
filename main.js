@@ -17,22 +17,7 @@ const films = [
 
    
 
-      {
-        title: "SANTIAGO - UN CAMMINO PER RICOMINCIARE",
-        genre: "Drammatico, Commedia",
-        duration: "103 min",
-        poster: "immagini/santiago.jpg",
-        isPremiere: true,
-        showings: [
-
-            { date: "2026-09-26", time: "21.00" },
-            { date: "2026-09-27", time: "21.00" },
-            { date: "2026-10-03", time: "21.00" },
-
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
-    },
+      
 
      {
         title: "HEART OF THE BEAST - Nel Profondo Selvaggio",
