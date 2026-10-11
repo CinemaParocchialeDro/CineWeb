@@ -28,13 +28,24 @@ const films = [
             { date: "2026-10-10", time: "21.00" },
             { date: "2026-10-11", time: "21.00" },
            
-
-
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
+    },
+    
+     {
+        title: "RESIDENT EVIL",
+        genre: "Horror",
+        duration: "97 min",
+        poster: "immagini/Resident_Evil_29.jpg",
+        showings: [
+            { date: "2026-10-17", time: "16.30" },
+            { date: "2026-10-18", time: "21.00" },
+           
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     }
-           
     
 
 
