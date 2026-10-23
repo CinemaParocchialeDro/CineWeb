@@ -68,7 +68,7 @@ const films = [
         title: "HUNGER GAME: L'ALBA SULLA MIETITURA",
         genre: "Azione, Avventura, Fantasy",
         duration: "158 min",
-        poster: "immagini/Hunger Games - L'alba sulla mietitura.jpg",
+        poster: "immagini/Hunger Games .jpg",
         isPremiere: true,
         showings: [
             
