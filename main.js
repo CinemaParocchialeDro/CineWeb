@@ -48,6 +48,36 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+    {
+        title: "SE DOMANI NON TORNO",
+        genre: "Drammatico, Biografico",
+        duration: "107 min",
+        poster: "immagini/GIULIA.jpg",
+        isPremiere: true,
+        showings: [
+            
+            
+            
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
+        title: "HUNGER GAME: L'ALBA SULLA MIETITURA",
+        genre: "Azione, Avventura, Fantasy",
+        duration: "158 min",
+        poster: "immagini/Hunger Games - L'alba sulla mietitura.jpg",
+        isPremiere: true,
+        showings: [
+            
+            
+            
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
     
 
