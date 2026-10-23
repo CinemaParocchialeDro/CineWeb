@@ -33,6 +33,21 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+    {
+        title: "IL GATTO COL CAPPELLO",
+        genre: "Animazione, Commedia, Family",
+        duration: "91 min",
+        poster: "immagini/GATTO CAPPELLO.jpg",
+        showings: [
+            
+            { date: "2026-11-08", time: "17.30" },
+            { date: "2026-11-15", time: "17.30" },
+            
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: ""
     }
     
 
