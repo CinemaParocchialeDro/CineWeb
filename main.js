@@ -18,13 +18,17 @@ const films = [
    
     
      {
-        title: "RESIDENT EVIL",
-        genre: "Horror",
-        duration: "97 min",
-        poster: "immagini/Resident_Evil_29.jpg",
+        title: "DIO RIDE",
+        genre: "Commedia",
+        duration: "114 min",
+        poster: "immagini/DIO RIDE - 1.jpg",
+        isPremiere: true,
         showings: [
-            { date: "2026-10-17", time: "16.30" },
-            { date: "2026-10-18", time: "21.00" },
+            
+            { date: "2026-10-31", time: "21.00" },
+            { date: "2026-11-01", time: "21.00" },
+            { date: "2026-11-07", time: "16.00" },
+            { date: "2026-11-08", time: "21.00" },
            
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
