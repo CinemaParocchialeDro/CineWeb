@@ -57,12 +57,12 @@ const films = [
         isPremiere: true,
         showings: [
             
-            { date: "2026-11-05", time: "21.00" },
+       
             
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
+        note: "PROSSIMAMENTE"
     },
     {
         title: "HUNGER GAME: L'ALBA SULLA MIETITURA",
