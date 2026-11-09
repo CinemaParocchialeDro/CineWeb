@@ -17,23 +17,7 @@ const films = [
 
    
     
-     {
-        title: "DIO RIDE",
-        genre: "Commedia",
-        duration: "114 min",
-        poster: "immagini/DIO RIDE - 1.jpg",
-        isPremiere: true,
-        showings: [
-            
-            { date: "2026-10-31", time: "21.00" },
-            { date: "2026-11-01", time: "21.00" },
-            { date: "2026-11-07", time: "16.30" },
-            { date: "2026-11-08", time: "21.00" },
-           
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+    
     {
         title: "IL GATTO COL CAPPELLO",
         genre: "Animazione, Commedia, Family",
@@ -41,7 +25,7 @@ const films = [
         poster: "immagini/GATTO CAPPELLO.jpg",
         showings: [
             
-            { date: "2026-11-08", time: "17.30" },
+          
             { date: "2026-11-15", time: "17.30" },
             
            
@@ -57,12 +41,16 @@ const films = [
         isPremiere: true,
         showings: [
             
-       
-            
+            { date: "2026-11-14", time: "21.00" },
+            { date: "2026-11-15", time: "21.00" },
+            { date: "2026-11-21", time: "16.30" },
+            { date: "2026-11-22", time: "21.00" },
+            { date: "2026-11-25", time: "21.00" },
+
             
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
     {
         title: "HUNGER GAME: L'ALBA SULLA MIETITURA",
@@ -71,13 +59,19 @@ const films = [
         poster: "immagini/HG.jpg",
         isPremiere: true,
         showings: [
+
+            { date: "2026-11-19", time: "21.00" },
+            { date: "2026-11-21", time: "21.00" },
+            { date: "2026-11-22", time: "16.30" },
+            { date: "2026-11-28", time: "21.00" },
+            { date: "2026-11-29", time: "21.00" },
             
             
             
            
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     }
     
 
