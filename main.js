@@ -98,6 +98,32 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
+    },
+     {
+        title: "HEXE: IL REGNO DELLE STREGHE",
+        genre: "Animazione, Fantasy",
+        duration: "109 min",
+        poster: "immagini/HEXE.jpeg",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+     {
+        title: "TI PRESENTO I FOTTER",
+        genre: "Commedia",
+        duration: "105 min",
+        poster: "immagini/TI PRESENTO I FOTTER.png",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
 
 
