@@ -124,6 +124,32 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
+    },
+    {
+        title: "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
+        genre: "Drammatico, Musicale",
+        duration: "83 min",
+        poster: "immagini/LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI.jpg",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
+        title: "AVENGERS: DOOMSDAY",
+        genre: "Azione, Fantascienza",
+        duration: "165 min",
+        poster: "immagini/AD.jpg",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
 
 
