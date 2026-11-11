@@ -150,6 +150,19 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: "PROSSIMAMENTE"
+    },
+     {
+        title: "ANGRY BIRDS 3 : TERREMOTO IN FAMIGLIA",
+        genre: "Animazione",
+        duration: "90 min",
+        poster: "immagini/ANGRY BIRDS.jpg",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
 
 
