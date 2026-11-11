@@ -139,6 +139,19 @@ const films = [
         note: "PROSSIMAMENTE"
     },
     {
+        title: "DUNE - PARTE TRE",
+        genre: "Azione, Drammatico, Fantascienza",
+        duration: "150 min",
+        poster: "immagini/DUNE-PARTE-3.jpeg",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+    {
         title: "AVENGERS: DOOMSDAY",
         genre: "Azione, Fantascienza",
         duration: "165 min",
