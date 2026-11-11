@@ -129,7 +129,7 @@ const films = [
         title: "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
         genre: "Drammatico, Musicale",
         duration: "83 min",
-        poster: "immagini/LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI.jpg",
+        poster: "immagini/LORENZ.jpg",
         showings: [
             
                
