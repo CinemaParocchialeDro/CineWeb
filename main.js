@@ -72,8 +72,33 @@ const films = [
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
+    },
+      {
+        title: "WILDWOOD – I SEGRETI DEL BOSCO PROIBITO",
+        genre: "Animazione, Avventura, Fantasy",
+        duration: "130 min",
+        poster: "immagini/WILDWOOD – I SEGRETI DEL BOSCO PROIBITO.jpg",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+     {
+        title: "SCROOGE E GLI SPIRITI DEL NATALE",
+        genre: "Drammatico, Avventura, Fantasy",
+        duration: "116 min",
+        poster: "immagini/SCROOGE E GLI SPIRITI DEL NATALE.jpg",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
     }
-    
 
 
 ];
