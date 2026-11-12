@@ -73,6 +73,19 @@ const films = [
         bookingUrl: "https://ticket.cinebot.it/dro/",
         note: ""
     },
+    {
+        title: "RAGIONE E SENTIMENTO",
+        genre: "Drammatico",
+        duration: "132 min",
+        poster: "immagini/RAGIONE-E-SENTIMENTO.jpg",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
       {
         title: "WILDWOOD – I SEGRETI DEL BOSCO PROIBITO",
         genre: "Animazione, Avventura, Fantasy",
