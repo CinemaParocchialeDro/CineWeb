@@ -18,21 +18,7 @@ const films = [
    
     
     
-    {
-        title: "IL GATTO COL CAPPELLO",
-        genre: "Animazione, Commedia, Family",
-        duration: "91 min",
-        poster: "immagini/GATTO CAPPELLO.jpg",
-        showings: [
-            
-          
-            { date: "2026-11-15", time: "17.30" },
-            
-           
-        ],
-        bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: ""
-    },
+    
     {
         title: "SE DOMANI NON TORNO",
         genre: "Drammatico, Biografico",
@@ -41,8 +27,7 @@ const films = [
         isPremiere: true,
         showings: [
             
-            { date: "2026-11-14", time: "21.00" },
-            { date: "2026-11-15", time: "21.00" },
+           
             { date: "2026-11-21", time: "16.30" },
             { date: "2026-11-22", time: "21.00" },
             { date: "2026-11-25", time: "21.00" },
@@ -80,11 +65,11 @@ const films = [
         poster: "immagini/RAGIONE-E-SENTIMENTO.jpg",
         showings: [
             
-               
+             { date: "2026-11-23", time: "21.00" },   
            
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
       {
         title: "WILDWOOD – I SEGRETI DEL BOSCO PROIBITO",
