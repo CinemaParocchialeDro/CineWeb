@@ -78,11 +78,12 @@ const films = [
         poster: "immagini/WILDWOOD – I SEGRETI DEL BOSCO PROIBITO.jpg",
         showings: [
             
-               
-           
+            { date: "2026-11-29", time: "17.30" },
+            { date: "2026-12-06", time: "17.30" },
+                       
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
      {
         title: "SCROOGE E GLI SPIRITI DEL NATALE",
@@ -91,11 +92,12 @@ const films = [
         poster: "immagini/SCROOGE E GLI SPIRITI DEL NATALE.jpg",
         showings: [
             
-               
-           
+            { date: "2026-12-05", time: "21.00" },
+            { date: "2026-12-06", time: "21.00" },
+            
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
      {
         title: "HEXE: IL REGNO DELLE STREGHE",
@@ -104,11 +106,12 @@ const films = [
         poster: "immagini/HEXE.jpeg",
         showings: [
             
+            { date: "2026-12-08", time: "17.30" },
+            { date: "2026-12-13", time: "17.30" },
                
-           
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
      {
         title: "TI PRESENTO I FOTTER",
@@ -117,11 +120,12 @@ const films = [
         poster: "immagini/TI PRESENTO I FOTTER.png",
         showings: [
             
-               
-           
+            { date: "2026-12-12", time: "21.00" },
+            { date: "2026-12-13", time: "21.00" },
+   
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
     {
         title: "LORENZO - L'INCREDIBILE AVVENTURA DI JOVANOTTI",
@@ -130,7 +134,7 @@ const films = [
         poster: "immagini/LORENZ.jpg",
         showings: [
             
-               
+             { date: "2026-12-14", time: "21.00" }, 
            
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
