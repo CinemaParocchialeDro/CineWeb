@@ -138,7 +138,7 @@ const films = [
            
         ],
         bookingUrl: "https://ticket.cinebot.it/dro/",
-        note: "PROSSIMAMENTE"
+        note: ""
     },
     {
         title: "DUNE - PARTE TRE",
@@ -171,6 +171,19 @@ const films = [
         genre: "Animazione",
         duration: "90 min",
         poster: "immagini/ANGRY BIRDS.jpg",
+        showings: [
+            
+               
+           
+        ],
+        bookingUrl: "https://ticket.cinebot.it/dro/",
+        note: "PROSSIMAMENTE"
+    },
+     {
+        title: "JUMANJI: OPEN WORLD",
+        genre: "Avventura, Commedia, Family",
+        duration: "117 min",
+        poster: "immagini/giumangi.jpg",
         showings: [
             
                
